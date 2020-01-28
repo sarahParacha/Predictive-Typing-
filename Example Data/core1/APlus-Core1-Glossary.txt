@@ -1,0 +1,1563 @@
+The Official CompTIA® A+® Core 1\nStudent Guide (Exam 220-1001)
+
+COPYRIGHT NOTICE\nCopyright © 2019 CompTIA, Inc. All rights reserved. Screenshots used for illustrative purposes are the property of the software proprietor. Except as permitted under the Copyright Act of 1976, no part of this publication may be reproduced or distributed in any form or by any means, or stored in a database or retrieval system, without the prior written permission of CompTIA, 3500 Lacey Road, Suite 100, Downers Grove, IL 60515-5439. This book conveys no rights in the software or other products about which it was written; all use or licensing of such software or other products is the responsibility of the user according to terms and conditions of the owner. If you believe that this book, related materials, or any other CompTIA materials are being reproduced or transmitted without permission, please call 1-866-835-8020 or visit www.help.comptia.org.
+
+*aaS\n(Something as a Service) An ownership model for cloud services where the "something" can refer to infrastructure, network, platform, or software.\ntag: C1 Glossary
+
+2D barcodes\nSee QR codes.\n(Quick Response codes) A 2D barcode created of black and white squares used to store information that can be read using a barcode scanner or the camera on a smartphone that has a barcode scanning app installed.\ntag: C1 Glossary
+
+3D modeling software\nSoftware that creates a model of a physical object using polygons, spline curves, and bezel curves.\ntag: C1 Glossary
+
+3D print process\nA printing process that builds a solid object from successive layers of material.\ntag: C1 Glossary
+
+3D printer\nHardware device capable of small scale manufacturing. 3D printers use a variety of filament media (typically plastic) with different properties.\ntag: C1 Glossary
+
+3D scanner\nA scanner that can gather data about the shape and appearance of a physical object and save that information to a computer.\ntag: C1 Glossary
+
+3D slicing software\nSoftware in a 3D printer or in 3D modeling software that takes a 3D model and creates multiple horizontal layers of the model.\ntag: C1 Glossary
+
+802.3af\nPoE powered devices can draw up to about 13 W over the link. Power is supplied as 350mA@48V and limited to 15.4 W, but the voltage drop over the maximum 100 feet of cable results in usable power of around 13 W.\ntag: C1 Glossary
+
+802.3at (PoE+)\nPoE powered devices can draw up to about 25 W. PoE+ allows for a broader range of devices to be powered such as cameras with pan/tilt/zoom capabilities, door controllers, and thin client computers.\ntag: C1 Glossary
+
+AC\n(alternating current) When electricity is produced by a generator at the power station, the rotational movement of the magnetic coils causes the current produced to oscillate like a sine wave (it is said to alternate). Computers require direct current (at a constant voltage). A transformer is used to convert AC from the power outlet into the 3.3, 5, and 12 V DC supply required by the computer.\ntag: C1 Glossary
+
+AC adapter\nAn external power supply used to power laptops and other portable devices.\ntag: C1 Glossary
+
+accelerometer\nMobile technology that can determine the orientation of a device with a sensor that measures the acceleration of the device direction.\ntag: C1 Glossary
+
+accelerometer/gyroscope\nComponents used in mobile devices to detect motion (accelerometer) and rotation (gyroscope). As well as switching screen orientation, this can be used as a control mechanism (for example, a driving game could allow the tablet itself to function as a steering wheel).\ntag: C1 Glossary
+
+access time\nThe speed at which memory or a disk drive can be addressed and utilized (opened, read from, or written to).\ntag: C1 Glossary
+
+ACL\n(Access Control List) The permissions attached to or configured on a network resource, such as folder, file, or firewall. The ACL specifies which subjects (user accounts, host IP addresses, and so on) are allowed or denied access and the privileges given over the object (read only, read/write, and so on).\ntag: C1 Glossary
+
+ad-hoc mode\nA temporary network mode in which devices connect to each other directly without an intermediary networking device.\ntag: C1 Glossary
+
+ad-hoc network\nA peer-to-peer network created for the current print session.\ntag: C1 Glossary
+
+adapter card\nCircuit board providing additional functionality to the computer system (video, sound, networking, modem, and so on). An adapter card fits a slot on the PC's expansion bus and often provides ports through slots cut into the back of the PC case. Different cards are designed for different slots (PCI or PCIe).\ntag: C1 Glossary
+
+add-on card\nAn adapter card installed in a PCIe slot.\ntag: C1 Glossary
+
+additive color printing\nA color printing method that combines differently colored transmitted light to form different shades.\ntag: C1 Glossary
+
+agent\nA process running on an SNMP compatible network device that sends information to an SNMP manager.\ntag: C1 Glossary
+
+AHCI\n(Advanced Host Controller Interface) A logical interface used by SATA drives to communicate with the bus.\ntag: C1 Glossary
+
+airplane mode\nA toggle found on mobile devices enabling the user to disable and enable wireless functionality quickly.\ntag: C1 Glossary
+
+all-in-one unit\nA desktop computer in which all the computer components, except the keyboard and mouse, are contained within the monitor case.\ntag: C1 Glossary
+
+ALU\n(Arithmetic Logic Unit) A circuit in the CPU that performs integer-based calculations and performs bit-wise logical calculations.\ntag: C1 Glossary
+
+AMD-V\nExtensions in AMD-based systems that allow hardware virtualization.\ntag: C1 Glossary
+
+ADF\n(Automatic Document Feeder) Device that feeds media automatically into a scanner or printer.\ntag: C1 Glossary
+
+AMD64\nAMD's 64-bit instruction set that was also adopted by Intel for its 64-bit desktop and mobile line. Intel refers to it as EM64T or Intel 64.\ntag: C1 Glossary
+
+ADSL\n(Asymmetrical DSL) A consumer version of DSL that provides a fast downlink but a slow uplink. The upstream rate is between 64 Kbps and 1 Mbps and the downstream rate it 500 Kbps to 8 Mbps.\ntag: C1 Glossary
+
+analog display\nA computer monitor that accepts continuously varying signals. CRT monitors use analog signals and are capable of supporting several output resolutions without losing quality.\ntag: C1 Glossary
+
+AES\n(Advanced Encryption Standard) Modern encryption suite providing symmetric encryption (the same key is used to encrypt and decrypt). AES is a very strong cipher with many applications, including being part of the WPA2 Wi-Fi encryption scheme.\ntag: C1 Glossary
+
+Android application package\n(APK) Third-party or custom programs that are installed directly through an APK file, giving users and business the flexibility to install apps directly on Android devices.\ntag: C1 Glossary
+
+Android Auto\nAn Android phone feature that allows users to interact with their phone using voice commands and a vehicle's built-in display.\ntag: C1 Glossary
+
+AFP\n(Apple Filing Protocol) Protocol supporting file sharing on macOS networks. AFP works over TCP port 548.\ntag: C1 Glossary
+
+anti-glare cover\nA display cover to deal with ambient lighting issues on the display.\ntag: C1 Glossary
+
+antistatic bag\nA packaging material containing anti-ESD shielding or dissipative materials to protect components from ESD damage.\ntag: C1 Glossary
+
+AP\n(Access Point) A device that provides connectivity between wireless devices and a cabled network. APs with Internet connectivity located in public buildings (cafes, libraries, and airports, for instance) are often referred to as hotspots.\ntag: C1 Glossary
+
+APIPA\n(Automatic Private IP Addressing) A means for Windows clients configured to obtain an address automatically that could not contact a DHCP server to communicate on the local subnet. The host randomly selects an address from the range 169.254.x.y. This is also called a link-local address.\ntag: C1 Glossary
+
+App Store\nThe online site where Apple users can purchase or get free apps have been submitted to and approved by Apple before they are released to users.\ntag: C1 Glossary
+
+Apple CarPlay\nAn iPhone feature that allows users to interact with their phone using voice commands and a vehicle's built-in display.\ntag: C1 Glossary
+
+Application protocols layer\nIn the TCP/IP suite, numerous protocols used for network configuration, management, and services reside at this level. Application protocols use a TCP or UDP port to connect the client and server.\ntag: C1 Glossary
+
+application virtualization\nRather than run the whole client desktop as a virtual platform, the client either accesses a particular application hosted on a server or streams the application from the server to the client for local processing.\ntag: C1 Glossary
+
+apps\nInstallable programs that extend the functionality of the mobile device, that must be written and compiled for a particular mobile operating system (Apple iOS, Android, or Windows).\ntag: C1 Glossary
+
+AR\n(augmented reality) Using software and smartphone cameras or headsets to interact with real-world objects and images or change the way they appear in some way.\ntag: C1 Glossary
+
+ARP\n(Address Resolution Protocol) When two systems communicate using IP, an IP address is used to identify the destination machine. The IP address must be mapped to a device (the network adapter's MAC address). ARP performs the task of resolving an IP address to a hardware address. Each host caches known mappings in an ARP table for a few minutes. It is also a utility used to manage the ARP cache.\ntag: C1 Glossary
+
+array\nSee RAID.\n(Redundant Array of Independent/ Inexpensive Disks) A set of vendor- independent specifications for fault-tolerant configurations on multiple-disk systems.\ntag: C1 Glossary
+
+ASF\n(AutoSheet Feeder) In an inkjet printer, the paper pickup mechanism to feed paper into the printer.\ntag: C1 Glossary
+
+aspect ratio\nA characteristic of display devices that indicates the ratio of width to height.\ntag: C1 Glossary
+
+ATX\nA standard PC case, motherboard, and power supply specification. Mini-, Micro-, and Flex-ATX specify smaller board designs.\ntag: C1 Glossary
+
+audio subsystem\nMade up of a sound card and one or more audio input and output devices.\ntag: C1 Glossary
+
+authentication\nA means for a user to prove their identity to a computer system. Authentication is implemented as either something you know (a username and password), something you have (a smart card or key fob), or something you are (biometric information). Often, more than one method is employed (2-factor authentication).\ntag: C1 Glossary
+
+autodiscover\nThe ability of a mobile device to determine connection settings based on the user entering their email credentials.\ntag: C1 Glossary
+
+back haul\nA link or transit arrangement with another ISP to connect each Point of Presence to their core network infrastructure and one or more IXPs.\ntag: C1 Glossary
+
+BIOS\n(Basic Input/Output System) Firmware that contains programs and information relating to the basic operation of PC components such as drives, keyboard, video display, and ports. It also contains specific routines to allow set-up configuration to be viewed and edited and it contains the self-diagnostic Power-On Self-Test (POST) program used to detect fundamental faults in PC components. BIOS can also be used to secure components not protected by the OS by specifying a supervisor password (to prevent tampering with BIOS settings) and a user password (to boot the PC).\ntag: C1 Glossary
+
+backed up print queue\nA problem situation where there are lots of jobs pending but not printing.\ntag: C1 Glossary
+
+backlight\nFluorescent lamp illuminating the image on a flat panel (LCD) screen. If the backlight or inverter fails, the screen image will go very, very dark.\ntag: C1 Glossary
+
+barcode scanner\nA barcode reader is a handheld or pen- shaped device designed to scan barcodes. A barcode is a pattern of different sized parallel bars, typically representing a product number, such as an ISBN, EAN, or UPC. The reader uses a sensor mechanism (typically either a photo diode, laser, or CCD) to read the intensity of light reflected back by the barcode. The reader then reports the number back to application software, which links it to a product database.\ntag: C1 Glossary
+
+baseband update\nModification of the firmware of a cellular modem.\ntag: C1 Glossary
+
+BD\n(Blu-ray Disc) The latest generation of optical disc technology that uses a 405 mm blue laser for high density storage, with disc capacity of 25 GB per layer. Transfer rates are measured in multiples of 36 MBps.\ntag: C1 Glossary
+
+biometric devices\nPeripherals used to gather biometric data for comparison to data stored in a database.\ntag: C1 Glossary
+
+biometrics\nIdentifying features stored as digital data can be used to authenticate a user. Typical features used include facial pattern, iris, retina, or fingerprint pattern, and signature recognition. This requires the relevant scanning device, such as a fingerprint reader, and a database of biometric information (template).\ntag: C1 Glossary
+
+BIOS setup\n(Basic Input/Output System setup) Another name for the setup program used to configure system firmware settings. Also known as CMOS setup or UEFI setup.\ntag: C1 Glossary
+
+bitmap image data\nA pixel-by-pixel image sent to a printer to print a file.\ntag: C1 Glossary
+
+blacklisting\nAn address added to the black list is prohibited from connecting to any port.\ntag: C1 Glossary
+
+blanking plate\nMetal strips that cover unused adapter slots in the case so that proper air flow is maintained within the system case.\ntag: C1 Glossary
+
+blaster\nSee IR.\n(Infrared) Infrared Data Association (IrDA) was a wireless networking standard supporting speeds up to about 4 Mbps. Infrared (IR) sensors are used in mobile devices and with IR blasters to control appliances.\ntag: C1 Glossary
+
+BLE\nBluetooth Low Energy) A radio-based technology designed for small battery-powered devices that transmit small amounts of data infrequently. BLE is not backwards-compatible with "classic" Bluetooth, though a device can support both standards simultaneously. Blu-ray drive An optical drive for reading, and if so equipped, writing to Blu-ray disc media. Most drives can also read CD and DVD discs.\ntag: C1 Glossary
+
+Bluetooth\nShort-range radio-based technology, working at up to 10 m (30 feet) at up to 1 Mbps used to connect peripherals (such as mice, keyboards, and printers) and for communication between two devices (such as a laptop and smartphone).\ntag: C1 Glossary
+
+bookmark\nA record of a website or web page that you visited.\ntag: C1 Glossary
+
+boot device priority\nSee boot sequence.\nThe order in which the system firmware searches devices for a boot manager.\ntag: C1 Glossary
+
+boot sequence\nThe order in which the system firmware searches devices for a boot manager.\ntag: C1 Glossary
+
+BRI\n(Basic Rate Interface) A class of ISDN service that provides two 64 Kbps (B channels) for data and one 16 Kbps (D channel) for link management control signals\ntag: C1 Glossary
+
+bridge\nA bridge can be used to divide an overloaded network into separate segments. Intrasegment traffic (traffic between devices on the same segment) remains within this segment and cannot affect the other segments. A bridge works most efficiently if the amount of intersegment traffic (traffic between devices on different segments) is kept low. Segments on either side of a bridge are in separate collision domains but the same broadcast domain. The function of bridges is now typically performed by switches.\ntag: C1 Glossary
+
+broadband\nThe technical meaning of broadband is a transmission that divides the available media bandwidth into a number of transmission paths or channels. WAN signaling generally uses this form of transmission and consequently the term is used generally to refer to 2 MBps+ Internet links such as DSL or cable.\ntag: C1 Glossary
+
+broadcast address\nA packet sent to all hosts on the local network (or subnet). Routers do not ordinarily forward broadcast traffic. The broadcast address of IP is one where the host bits are all set to 1; at the MAC layer, it is the address ff:ff:ff:ff:ff:ff.\ntag: C1 Glossary
+
+BSSID\n(Basic Service Set Identifier) The MAC address of the access point.\ntag: C1 Glossary
+
+Bubblejet\nThe term used by the Canon company to refer to their thermal inkjet print method.\ntag: C1 Glossary
+
+burning\nIn optical discs, the process of using a special laser used to transform the dye to mimic the pits and lands of a premastered CD.\ntag: C1 Glossary
+
+bus\nBuses are the connections between components on the motherboard and peripheral devices attached to the computer. Buses are available in industry standard formats, each with its own advantages and disadvantages. The standard functions of a bus are to provide data sharing, memory addressing, power supply, and timing. Common bus types include PCI, PCI Express, and USB.\ntag: C1 Glossary
+
+bus mastering\nFeature of a bus allowing devices to communicate with one another without going through the CPU. Bus mastering is supported by most bus types, including PCI, SCSI, and ATA (in "Ultra DMA" modes).\ntag: C1 Glossary
+
+cache\nA small block of high-speed memory that enhances performance by pre-loading (caching) code and data from relatively slow system memory and passing it to the CPU on demand.\ntag: C1 Glossary
+
+CAD\n(Computer-Aided Design) Software that makes technical drawings and schematics easier to produce and revise. calibration (printer) The process by which the printer determines the appropriate print density or color balance, or how much toner to use.\ntag: C1 Glossary
+
+CAM\n(Computer Aided Manufacturing) Software that can control machine tools found in manufacturing environments.\ntag: C1 Glossary
+
+CAN\n(Campus area network) A network that spans multiple nearby buildings.\ntag: C1 Glossary
+
+capacitor\nAn electrical component that stores electrical energy and is often used to regulate voltages. It can hold a charge after the power is removed.\ntag: C1 Glossary
+
+CATV\n(Cable Access TV) Access to television stations over a coaxial cable connected to a TV, set-top box, or computer.\ntag: C1 Glossary
+
+CCD\n(Charge Coupled Device) A type of microchip widely used as a digital image sensor. Each element in a CCD converts light captured by a photodiode into a proportional electric charge, which is then amplified, sampled, and stored as a digital value. The number of elements determines the resolution.\ntag: C1 Glossary
+
+CCFL\n(Cold Cathode Fluorescent Lamp) A type of lamp providing a bright, clear light source. CCFLs are used for LCD backlights and scanners.\ntag: C1 Glossary
+
+CD drive\nAn optical drive consisting of a spindle motor to spin the disc, a laser and lens to read the disc, and a tracking system to move the laser and lens assembly.\ntag: C1 Glossary
+
+CD-R\nCompact disks containing a layer with photosensitive dye in which a laser transforms the dye to mimic the pits and lands of a premastered CD.\ntag: C1 Glossary
+
+CD-ROM\n(Compact Disc - Read Only Memory) An optical storage technology. The discs can normally hold 700 MB of data or 80 minutes of audio data. Recordable and re- writable CDs (and DVDs) are a popular backup solution for home users. They are also useful for archiving material. Unlike magnetic media, the data on the disc cannot be changed (assuming that the disc is closed to prevent further rewriting in the case of RW media). This makes them useful for preserving tamper-proof records.\ntag: C1 Glossary
+
+CD-RW\nCompact disks containing a heat sensitive compound whose properties can be changed between crystalline and amorphous by a special laser.\ntag: C1 Glossary
+
+CDMA\n(Code Division Multiple Access) Method of multiplexing a communications channel using a code to key the modulation of a particular signal. CDMA is associated with Sprint and Verizon cellular phone networks.\ntag: C1 Glossary
+
+cellular data\nConnecting to the Internet via the device's cell phone radio and the handset's cellular network provider.\ntag: C1 Glossary
+
+cellular radio\nA component in a mobile device that is capable of switching frequencies automatically when moving between network cells without losing the connection.\ntag: C1 Glossary
+
+channels\nPaths between PATA drives and motherboard, called IDE1 and IDE2, or primary (PRI IDE) and secondary (SEC IDE).\ntag: C1 Glossary
+
+chassis\nSee system case.\nA plastic and metal box that houses components such as the motherboard, Central Processing Unit (CPU), memory, adapter cards, disk drives, and power supply unit. System units are also often referred to as boxes, main units, or base units.\ntag: C1 Glossary
+
+chip creep\nCards can work free from a slot over time, though this is not common.\ntag: C1 Glossary
+
+chipset\nThe chipset provides communications between different components by implementing various controllers (for memory, graphics, I/O, and so on). Historically, "fast" controllers (memory and video) were part of a "northbridge" chipset, placed close to the CPU and system memory. Slower buses were part of a "southbridge" chipset. In modern PC architecture, video and memory controllers are part of the CPU (on-die), the northbridge would mostly handle PCI Express adapters, and the southbridge would host SATA, USB, audio and LAN functions, plus PCI/PATA legacy bus support.\ntag: C1 Glossary
+
+CIFS\n(Common Internet File System) Another term for SMB.\ntag: C1 Glossary
+
+CIS\n(Contact Image Sensor) A type of digital imaging sensor. An array of LEDs strobing between red, blue, and green light are used to illuminate an object. The reflected light is captured through a lens onto an image sensor.\ntag: C1 Glossary
+
+cleaning blade\nSee cleaning unit.\nParts such as a blade, roller, or brush that rest on the surface of a laser printer's photosensitive drum that are used to clean excess toner and remove residual charge from the photoconductor.\ntag: C1 Glossary
+
+cleaning unit\nParts such as a blade, roller, or brush that rest on the surface of a laser printer's photosensitive drum that are used to clean excess toner and remove residual charge from the photoconductor.\ntag: C1 Glossary
+
+client-side virtualization\nAny solution designed to run on desktops or workstations in which the user interacts with the virtualization host directly.\ntag: C1 Glossary
+
+clock battery\nSee RTC battery.\n(real time clock battery) The battery that powers the chipset that keeps track of date and time for the system.\ntag: C1 Glossary
+
+closed network\nA network where the elements of the network are all known to the system vendor and there is no connectivity to wider computer data networks.\ntag: C1 Glossary
+
+cloud computing\nAny environment where software (Software as a Service and Platform as a Service) or computer/network resources (Infrastructure as a Service and Network as a Service) are provided to an end user who has no knowledge of or responsibility for how the service is provided. Cloud services provide elasticity of resources and pay- per-use charging models. Cloud access arrangements can be public, hosted private, or private (this type of cloud could be onsite or offsite relative to the other business units).\ntag: C1 Glossary
+
+cloud-based network controller\nA cloud-based management system that enables registering and monitoring all of the organization's networks, clients, and servers.\ntag: C1 Glossary
+
+CMOS\n(complementary metal oxide semiconductor) A type of integrated circuit with a wide range of applications, including static RAM (for firmware and flash memory) and imaging sensors.\ntag: C1 Glossary
+
+CMOS battery\n(complementary metal oxide semiconductor battery) A battery designed to last 5 to 10 years to maintain CMOS settings.\ntag: C1 Glossary
+
+CMOS setup\n(complementary metal oxide semiconductor setup) Another name for the setup program used to configure system firmware settings. Also known as BIOS setup or UEFI setup.\ntag: C1 Glossary
+
+CMP\n(chip-level multiprocessing) Multiple processors combined on the same die.\ntag: C1 Glossary
+
+CMTS\n(Cable Modem Termination System) Equipment used by cable companies to allow computers to send and receive IP packets by inserting the packets into MPEG frames over an RF signal and reverses the process for data coming from a cable modem.\ntag: C1 Glossary
+
+CMYK Color Model\n(Cyan Magenta Yellow Key [Black] color model) Subtractive color model used by print devices. CMYK printing involves use of halftone screens. Four screens (or layers) of dots printed in each of the colors are overlaid. The size and density of the dots on each layer produces different shades of color and is viewed as a continuous tone image.\ntag: C1 Glossary
+
+coaxial cable\nCable type using two separate conductors that share a common axis (hence the term co-axial). Coax cables are categorized using the Radio Grade (RG) "standard". Coax is considered obsolete in terms of LAN applications but is still widely used for CCTV networks and as drop cables for cable TV (CATV).\ntag: C1 Glossary
+
+collated\nA print job where all pages of the first copy are printed, followed by all pages of the next copy.\ntag: C1 Glossary
+
+collision domain\nThe network segment in which contention collisions occur.\ntag: C1 Glossary
+
+color calibration\nThe process of adjusting display and scanner settings so that color input and output are balanced.\ntag: C1 Glossary
+
+color depth\nEach pixel in a digital image can be one of a number of colors. The range of colors available for each pixel is referred to as the color depth. Providing a greater range of colors requires more memory. If 1-bit is allowed for color depth, two colors (white and black) are allowed. A VGA video system supports 4-bit color (16 possible colors). SVGA supports 8-bit (256 colors), 16-bit (65,536 colors), 24-bit (16,777,216 colors), and 32-bit (deep color).\ntag: C1 Glossary
+
+COM port\n(communications port) Windows' representation of a computer's serial port(s), numbered sequentially (COM1, COM2...).\ntag: C1 Glossary
+
+conductor\nA material that is good at conducting electricity, such as gold, copper, or tin. These are used for wires and contacts.\ntag: C1 Glossary
+
+connections\nThe physical access points that enable a computer to communicate with internal or external devices.\ntag: C1 Glossary
+
+contact\nA record with fields for name, address, email address(es), phone numbers, notes, and other information related to the entity defined in the record.\ntag: C1 Glossary
+
+container virtualization\nA virtualization method that doesn't use a hypervisor and instead enforces resources separate at the operating system level with isolated containers for each user instance to run in with its own allocated CPU and memory resources, but all processes are run through the native OS kernel.\ntag: C1 Glossary
+
+contention\nA media access method in which nodes compete or cooperate among themselves for media access time. Also called competitive media access.\ntag: C1 Glossary
+
+contrast ratio\nA measure of the ratio of luminance (brightness) of whites to blacks, indicating the color performance of a display or scanner. A device supporting a higher contrast ratio is able to display a wider range of colors and deliver "true" black.\ntag: C1 Glossary
+
+Control Center\nAn iOS feature that is accessed by swiping up from the bottom of the display to access iOS feature settings.\ntag: C1 Glossary
+
+core clock speed\nThe speed at which the CPU runs internal processes and accesses L1 and L2 cache.\ntag: C1 Glossary
+
+corona\nAn assembly within a laser printer that contains a wire (the corona wire), which is responsible for charging the paper.\ntag: C1 Glossary
+
+corporate mail gateway\nA connection between mail servers that use different communications protocols or between two networks that use the same or different protocols.\ntag: C1 Glossary
+
+cover\nThe removable portion of the system case that allows access to the motherboard and internal components.\ntag: C1 Glossary
+
+CPU\n(Central Processing Unit) The principal microprocessor in a computer or smartphone responsible for running operating system and applications software.\ntag: C1 Glossary
+
+CPU form factor\n(central processing unit form factor) The size, shape, and connection method of the CPU.\ntag: C1 Glossary
+
+critical update\nA widely released, non-security update to fix a critical issue.\ntag: C1 Glossary
+
+CRM\n(Customer Relationship Management) Software designed to manage an organization's customer (and potential customer) relationships and interactions.\ntag: C1 Glossary
+
+crossover cable\nA twisted pair cable wired as T568A on one end and as T568B on the other end.\ntag: C1 Glossary
+
+CSV\n(Comma Separated Values) A file format in which data is stored using commas or another character to separate fields in the data. Typically, data has been exported from a spreadsheet or a database.\ntag: C1 Glossary
+
+current\nThe actual flow of electrons, measured in Amps (I).\ntag: C1 Glossary
+
+cylinder\nThe aggregate of all tracks that reside in the same location on every disk surface.\ntag: C1 Glossary
+
+DAC\n(Digital-to-Analog Converter) A sound card component that converts the digital signals generated by the CPU to an analog electrical signal that can drive the speakers.\ntag: C1 Glossary
+
+daughter board\nA circuit board that connects to the motherboard to provide extra expansion slots or connectors. Typically, these are used in slimline case designs so that adapter cards can be installed parallel to the motherboard, reducing the height of the case.\ntag: C1 Glossary
+
+DB-9\nAlthough the original serial port used a 25- pin male D connector, most PCs today use a male DB-9 (9-pin) port. (See also serial port.)\ntag: C1 Glossary
+
+DC\n(direct current) PCs and most computer components function by using power supplied in the form of direct current. This is normally at low voltage and is produced by stepping down the voltage from the building supply. Direct current, unlike alternating current, does not oscillate between positive and negative states.\ntag: C1 Glossary
+
+DDR SDRAM\n(Double Data Rate Synchronous Dynamic Random Access Memory) A standard for SDRAM where data is transferred twice per clock cycle (making the maximum data rate 64x the bus speed in bps). DDR2/ DDR3/DDR4 SDRAM uses lower voltage chips and higher bus speeds.\ntag: C1 Glossary
+
+default gateway\nThe default gateway is an IP configuration parameter that identifies the location of a router on the local subnet that the host can use to contact other networks.\ntag: C1 Glossary
+
+default mask\nIn the early days of IP addressing, the network ID was determined automatically from the first octet of the address. When subnet masks were introduced, the "default" masks (255.0.0.0, 255.255.0.0, and 255.255.255.0) that corresponded to treating the first octet as classful were commonly described as "class A", "class B", and "class C" masks. The Internet no longer uses classful addressing but many LANs use the private IP address ranges and the default masks.\ntag: C1 Glossary
+
+defense in depth\nConfiguring security controls on hosts (endpoints) as well as providing network (perimeter) security, physical security, and administrative controls.\ntag: C1 Glossary
+
+defragmentation\nSee disk defragmentation.\nFragmentation occurs when a data file is not saved to contiguous sectors on a disk. This decreases performance by making the disk read/write heads move between fragments. Defragmentation is a software routine that compacts files back into contiguous areas of the disk. The process can be run from a command-line using the defrag utility, but it is more often run from Windows.\ntag: C1 Glossary
+
+desktop computer\nA computing device designed to be placed on or near a user's desk.\ntag: C1 Glossary
+
+detac corona\nA strip that removes the charge to prevent paper curl in a laser printer.\ntag: C1 Glossary
+
+developer roller\nA magnetized roller to which toner adheres during the printing process. See also developer unit.\ntag: C1 Glossary
+
+developer unit\nAssembly that applies toner to areas of the photoconductor where charge has been removed by the laser. The main components are a toner hopper, transfer roller, waste toner hopper, a screw or blade to stir the toner, and a doctor blade to ensure the correct level of toner on the developer roller.\ntag: C1 Glossary
+
+DHCP Server\n(Dynamic Host Configuration Protocol server) A networking service that allows a client to request an appropriate IP configuration from a server. The server is configured with a range of addresses to lease. Hosts can be allocated an IP address dynamically or be assigned a reserved IP address, based on the host's MAC address. The server can also provide other configuration information, such as the location of DNS servers. DHCP utilizes UDP ports 67 and 68. It is important to monitor the network to ensure that only valid DHCP servers are running on the network.\ntag: C1 Glossary
+
+dial-up\nA remote network access method that utilizes the local telephone line (Plain Old Telephone System [POTS]) to establish a connection between two computers fitted with modems. Dial-up is a legacy method of Internet access. It may still be deployed for special administrative purposes or as an emergency backup connection method. Configuration is generally a case of setting the telephone number, username, and password.\ntag: C1 Glossary
+
+die\nThe area on a silicon chip containing millions of transistors and signal pathways created by the hoping process.\ntag: C1 Glossary
+
+digital assistant\nA voice interface designed to respond to natural language commands and queries.\ntag: C1 Glossary
+
+digital camera\nA version of a 35mm film camera where the film is replaced by light-sensitive diodes (an array of CCDs [Charge Coupled Devices]) and electronic storage media (typically a flash memory card). The sensitivity of the array determines the maximum resolution of the image, measured in megapixels.\ntag: C1 Glossary
+
+digital display\nA computer monitor that accepts a digital signal. Flat-panel monitors use digital signals and only support lower resolutions by interpolating the image, which can make it appear fuzzy.\ntag: C1 Glossary
+
+digitizer\nAs part of a touchscreen assembly, the digitizer is a touch-sensitive glass panel covering the LCD. The panel converts touch events to digital signals that can be interpreted as different types of input.\ntag: C1 Glossary
+
+dim display\nWhen a mobile device has the backlightset to its lowest setting and the automatic light adjustment is disabled, or the phone is set to conserve power by auto-dimming the light.\ntag: C1 Glossary
+
+DIMM\n(Dual In-line Memory Module) The standard packaging for system memory. There are different pin configurations for different RAM types (DDR SDRAM [184], DDR2/3 SDRAM [240], and DDR4 SDRAM [288]).\ntag: C1 Glossary
+
+diode\nA valve, allowing current to flow in one direction only. These are used in a computer's power supply and as protection for components.\ntag: C1 Glossary
+
+direct thermal printer\nA thermal printer that uses heated pins to form images directly onto specially coated thermal paper.\ntag: C1 Glossary
+
+disk defragmentation\nFragmentation occurs when a data file is not saved to contiguous sectors on a disk. This decreases performance by making the disk read/write heads move between fragments. Defragmentation is a software routine that compacts files back into contiguous areas of the disk. The process can be run from a command-line using the defrag utility, but it is more often run from Windows.\ntag: C1 Glossary
+
+disk mirroring\nSee mirroring.\nMirroring is a type of RAID (RAID 1) using two hard disks, providing the simplest way of protecting a single disk against failure. Data is written to both disks and can be read from either disk.\ntag: C1 Glossary
+
+disk striping\nA disk array access pattern where data is written in stripes to two or more disks sequentially, improving performance. Note that a RAID 0 striped volume provides no redundancy, and if any of the physical disks in the set fails, the whole volume will be lost.\ntag: C1 Glossary
+
+disk thrashing\nA state in which the main memory is filled up, pages are swapped in and out of virtual memory—which needs to be written to the hard disk—in rapid succession, leading to possible early drive failure.\ntag: C1 Glossary
+
+DisplayPort\nDigital A/V interface developed by VESA. DisplayPort supports some cross-compatibility with DVI and HDMI devices.\ntag: C1 Glossary
+
+distended capacitors\nCapacitors that are swollen or bulging or emitting residue indicates that they have been damaged or could have failed due to a manufacturing defect.\ntag: C1 Glossary
+
+distinguished name\nA unique identifier for any given resource within the LDAP directory.\ntag: C1 Glossary
+
+DLP (video)\n(Digital Light Processing) Mirror-based projector technology developed by Texas Instruments.\ntag: C1 Glossary
+
+DMZ\n(Demilitarized Zone) A private network connected to the Internet must be protected against intrusion from the Internet. However, certain services may need to be made publicly accessible from the Internet (web and email, for instance). One solution is to put such servers in a DMZ. The idea of a DMZ is that traffic cannot pass through it. If communication is required between hosts on either side of a DMZ, a host within the DMZ acts as a proxy. It takes the request and checks it. If the request is valid, it re-transmits it to the destination. External hosts have no idea about what (if anything) is behind the DMZ. A DMZ is implemented using either two firewalls (screened subnet) or a single three-legged firewall (one with three network ports).\ntag: C1 Glossary
+
+DNS\n(Domain Name System) A network service that provides names to IP address mapping services on the Internet and large intranets. DNS name servers host the database for domains for which they are authoritative. Root servers hold details of the top-level domains. DNS resolvers perform queries or lookups to service client requests. The DNS protocol utilizes TCP/UDP port 53.\ntag: C1 Glossary
+
+docking station\nA sophisticated type of port replicator designed to provide additional ports (such as network or USB) and functionality (such as expansion slots and drives) to a portable computer when used at a desk.\ntag: C1 Glossary
+
+DOCSIS\n(Data Over Cable Service Interface Specification) A global telecommunications standard that enables data to be sent over cable modems in a CATV system.\ntag: C1 Glossary
+
+domain name\nThe unique and officially registered name that identifies a company, organization, or individual.\ntag: C1 Glossary
+
+DoS\n(Denial of Service) A network attack that aims to disrupt a service, usually by overloading it.\ntag: C1 Glossary
+
+dot matrix printer\nA type of impact printer that uses a set of pins to strike the ribbon to create printed characters and images using combinations of dots.\ntag: C1 Glossary
+
+dotted decimal notation\n32 bit addresses displayed in human readable format using base-10 numbering.\ntag: C1 Glossary
+
+DRAM\n(Dynamic Random Access Memory) A type of volatile memory that stores each bit of data as a charge within a single transistor. Each transistor must be refreshed periodically. Standard DRAM is the lowest common denominator of the DRAM types. Modern PCs use a DRAM derivative to store data (Double Data Rate SDRAM).\ntag: C1 Glossary
+
+drive controller\nThe controller is the circuitry in the disk unit that allows it to put data on the bus, which the HBA shuttles to the CPU or RAM.\ntag: C1 Glossary
+
+drive enclosure\nAn external case that holds one or more disks and typically connects to the computer through USB or Thunderbolt ports.\ntag: C1 Glossary
+
+drive encryption\nThe entire contents of the drive (or volume), including system files and folders, are encrypted. dual heat pipe Two heat pipe tubes to provide better cooling.\ntag: C1 Glossary
+
+driver\nSoftware that creates an interface between a device and the operating system. It may also include tools for configuring and optimizing the device.\ntag: C1 Glossary
+
+drop cable\nSolid cables used for permanent links such as cable running through walls.\ntag: C1 Glossary
+
+DSL\n(Digital Subscriber Line) A technology for transferring data over voice-grade telephone lines. DSL uses the higher frequencies available in a copper telephone line as a communications channel. The use of a filter prevents this from contaminating voice traffic with noise. There are various "flavors" of DSL, notably S(ymmetric)DSL, A(symmetric)DSL, and V(ery HIgh Bit Rate)DSL.\ntag: C1 Glossary
+
+DSLAM\n(DSL Access Multiplier) A network device at the telecommunications central office that connects subscribers with the Internet.\ntag: C1 Glossary
+
+DSLR\n(Digital Single Lens Reflex) A digital camera that replicates the features of compact 35mm film cameras, preserving the traditional viewfinder method of picture composition and supporting replaceable lenses and manual adjustments.\ntag: C1 Glossary
+
+DSP chip\n(Digital Signal Processor chip) The basis of a sound card containing one or more DACs. It also provides functions for playing digital sound (synthesis) and driving MIDI compatible devices.\ntag: C1 Glossary
+
+dual rail\nA power supply with two +12 V rails.\ntag: C1 Glossary
+
+dual-channel memory\nMemory controller with two pathways through the bus to the CPU so that 128 bits of data can be transferred per transaction. duplexing assembly A device that enables a printer or scanner to use both sides of a page automatically.\ntag: C1 Glossary
+
+DVD\n(Digital Video/Versatile Disk) An optical storage technology. DVDs offer higher capacities (4.7 GB per layer) than the preceding CD-ROM format. As with CDs, recordable and re-writable forms of DVD exist, though there are numerous competing formats (notably ±R and ±RW and DVD-RAM).\ntag: C1 Glossary
+
+DVD drive\nAn optical drive similar to a CD drive, but with a different encoding method and a shorter wavelength laser. Typically can read and burn CD and DVD media.\ntag: C1 Glossary
+
+DVI\n(Digital Video Interface) A video adapter designed to replace the VGA port used by CRT monitors. The DVI interface supports digital only or digital and analog signaling. dye sublimation printer See thermal dye transfer printer.\ntag: C1 Glossary
+
+DTLS\n(Datagram Transport Layer Security) TLS used with UDP applications, such as some VPN solutions.\ntag: C1 Glossary
+
+DTP\n(Desktop Publishing) An application similar to word processing but with more emphasis on the formatting and layout of documents than on editing the text.\ntag: C1 Glossary
+
+e-ink\n(electrophoretic ink) Micro-encapsulated black and white particles, electronically manipulated to create images and text on an e-reader.\ntag: C1 Glossary
+
+e-magazine\nA digital magazine that can be read on an electronic device such as an e-reader, smartphone, tablet, or computer. EIR database (Equipment Identity Register database) A database where IMEI numbers are stored. A lost or stolen device IMEI is marked as invalid.\ntag: C1 Glossary
+
+e-newspaper\nA digital newspaper that can be read on an electronic device such as an e-reader, smartphone, tablet, or computer.\ntag: C1 Glossary
+
+e-reader\nA tablet-sized device designed for reading rather than general-purpose computing.\ntag: C1 Glossary
+
+EAP\n(Extensible Authentication Protocol) Framework for negotiating authentication methods, supporting a range of authentication devices. EAP-TLS uses PKI certificates, Protected EAP (PEAP) creates a TLS-protected tunnel between the supplicant and authenticator to secure the user authentication method, and Lightweight EAP (LEAP) is a password-based mechanism used by Cisco.\ntag: C1 Glossary
+
+early-life failure rate\nA method of calculating how quickly a device will fail through accelerated testing.\ntag: C1 Glossary
+
+EAS\n(Exchange ActiveSync) Microsoft's synchronization protocol that enables mobile devices to connect to an Exchange Server to access mail, calendar, and contacts.\ntag: C1 Glossary
+
+ebook\nA digital book that can be read on an electronic device such as an e-reader, smartphone, tablet, or computer.\ntag: C1 Glossary
+
+ECC\n(Error Checking and Correcting [or Error Correcting Code]) System memory (RAM) with built-in error correction security. It is more expensive than normal memory and requires motherboard support. It is typically only used in servers.\ntag: C1 Glossary
+
+EDR\n(Enhanced Data Rate) An option in the Bluetooth specification that allows faster data rates and potentially better battery life.\ntag: C1 Glossary
+
+Electrostatic discharge\nSee ESD.\n(electrostatic discharge) The release of a charge from a metal or plastic surface that occurs when a potential difference is formed between the charged object and an oppositely charged conductive object. This electrical discharge can damage silicon chips and computer components if they are exposed to it.\ntag: C1 Glossary
+
+electrostatic latent image\nRepresentation of the image to be printed created as a series of raster lines with charge/no-charge areas.\ntag: C1 Glossary
+
+embedded system\nA computer system that is designed to perform a specific, dedicated function, such as a microcontroller in a medical drip or components in a control system managing a water treatment plant.\ntag: C1 Glossary
+
+EMF\n(Enhanced MetaFile) When using EMF, the software application and GDI quickly produce a partial print job. Control is then released back to the user while spooling continues in the background (GDI and the print driver are called to complete the processing of the job).\ntag: C1 Glossary
+
+encryption\nScrambling the characters used in a message so that the message can be seen but not understood or modified unless it can be deciphered. Encryption provides for a secure means of transmitting data and authenticating users. It is also used to store data securely. Encryption uses different types of cipher and one or more keys. The size of the key is one factor in determining the strength of the encryption product.\ntag: C1 Glossary
+
+encryption key\nA specific piece of information that is used with an algorithm to perform encryption and decryption in cryptography.\ntag: C1 Glossary
+
+Endpoint Management Server\nFacilitates the defense in depth process by identifying computing devices running on the network and ensuring that they are securely configured. This can include applying OS and antivirus updates automatically, cataloging software applications installed on each device, applying security policies, retrieving and analyzing log files, and monitoring performance and other status alerts.\ntag: C1 Glossary
+
+energy\nThe amount of power consumed by a device over time, measured in Watt-hours (or more typically Kilowatt-hours [kWh]).\ntag: C1 Glossary
+
+EP drum\n(Electrostatic Photographic drum) The component in a laser printer that carries the electrical charge to attract toner and then to transfer the toner to the paper.\ntag: C1 Glossary
+
+EPD\n(Electronic Paper Display) A low-power display using e-ink to create a display that mimics the look of text on paper without using a backlight or glossy surface.\ntag: C1 Glossary
+
+EPS specification\n(Entry-level Power Supply specification) 8- pin +12 V connectors developed initially for server-class hardware.\ntag: C1 Glossary
+
+EPT\n(Extended Page Table) The term used for SLAT extensions by Intel.\ntag: C1 Glossary
+
+erase lamp\nSee cleaning unit.\nParts such as a blade, roller, or brush that rest on the surface of a laser printer's photosensitive drum that are used to clean excess toner and remove residual charge from the photoconductor.\ntag: C1 Glossary
+
+eSATA\n(external Serial Advanced Technology Attachment) An external interface for SATA connections, enabling you to connect external SATA drives to PCs.\ntag: C1 Glossary
+
+eSATAp\nA non-standard powered port used by some vendors that is compatible with both USB and SATA (with an eSATAp cable).\ntag: C1 Glossary
+
+ESD\n(electrostatic discharge) The release of a charge from a metal or plastic surface that occurs when a potential difference is formed between the charged object and an oppositely charged conductive object. This electrical discharge can damage silicon chips and computer components if they are exposed to it.\ntag: C1 Glossary
+
+Ethernet\nA family of networking technologies that provide connectivity by using Ethernet network adapters, contention-based media access, and twisted pair, coax, or fiber media. evil twin In an evil twin attack, the attacker creates a malicious wireless access point masquerading as a genuine one, enabling the attacker to harvest confidential information as users connect via the AP.\ntag: C1 Glossary
+
+Exchange\nMicrosoft Exchange is a client-based email system that allows mobile devices to sync with the server.\ntag: C1 Glossary
+
+expansion bus\nThe external bus that allows additional components to be connected to the computer.\ntag: C1 Glossary
+
+expansion cards\nA printed circuit board that is installed in a slot on a system board to provide special functions for customizing or extending a computer's capabilities. Also referred to as adapter card, I/O card, add-in, add-on, or board.\ntag: C1 Glossary
+
+expansion slots\nConnection slots on the motherboard in which adapter cards can be installed to extend the range of functions the computer can perform.\ntag: C1 Glossary
+
+Extended Service Set\nBasic service sets can be grouped into an extended service set.\ntag: C1 Glossary
+
+external transfer rate\nA measure of how fast data can be transferred to the CPU across the bus.\ntag: C1 Glossary
+
+extranet\nA network of semi-trusted hosts, typically representing business partners, suppliers, or customers. Hosts must authenticate to join the extranet.\ntag: C1 Glossary
+
+fast charge\nA general technology for quickly charging mobile devices using varying voltages to speed up charging times.\ntag: C1 Glossary
+
+FDE\n(full disk encryption) Encryption of all data on a disk (including system files, temporary files, and the pagefile) can be accomplished via a supported OS, third- party software, or at the controller level by the disk device itself. Used with a strong authentication method, this mitigates against data theft in the event that the device is lost or stolen. The key used to encrypt the disk can either be stored on a USB stick or smart card or in a Trusted Platform Module.\ntag: C1 Glossary
+
+FDM\n(fused deposition modeling) See FFF.\n(fused filament fabrication) A 3D printing method which lays down each layer of filament at high temperature, and as layers are extruded, adjacent layers are allowed to cool and bond together before additional layers are added to the object.\ntag: C1 Glossary
+
+flash memory\nFlash RAM is similar to a ROM chip in that it retains information even when power is removed, but it adds flexibility in that it can be reprogrammed with new contents quickly. Flash memory is used in USB thumb drives and memory cards for removable storage and in Solid State Drives (SSDs), designed to replicate the function of hard drives.\ntag: C1 Glossary
+
+federated identity management\nAn agreement between enterprises to allow users to authenticate using the same information to all networks within the agreed upon group.\ntag: C1 Glossary
+
+feed assembly\nIn a thermal printer, a stepper motor turns a rubber-coated roller to feed the paper through the print mechanism using friction feed.\ntag: C1 Glossary
+
+feed roller\nRoller that works with a separation roller or pad to feed just one sheet of paper (or other media) into the printer mechanism.\ntag: C1 Glossary
+
+female port\nA port that has hole connectors.\ntag: C1 Glossary
+
+FFF\n(fused filament fabrication) A 3D printing method which lays down each layer of filament at high temperature, and as layers are extruded, adjacent layers are allowed to cool and bond together before additional layers are added to the object.\ntag: C1 Glossary
+
+filament\nIn 3D printing, the spool of plastic or other material used to create the three-dimensional object.\ntag: C1 Glossary
+
+firewall\nHardware or software that filters traffic passing into or out of a network. A basic packet-filtering firewall works at Layer 3 (Network). Packets can be filtered depending on several criteria (inbound or outbound, IP address, and port number). More advanced firewalls (proxy and stateful inspection) can examine higher layer information, to provide enhanced security.\ntag: C1 Glossary
+
+firmware\nThis refers to software instructions stored semi-permanently (embedded) on a hardware device. Modern types of firmware are stored in flash memory and can be updated more easily than legacy programmable Read Only Memory (ROM) types.\ntag: C1 Glossary
+
+flatbed scanner\nA type of scanner where the object is placed on a glass faceplate and the scan head moved underneath it.\ntag: C1 Glossary
+
+fonts\nThe display and word processing programs can make use of any typeface designs (fonts) installed on the local system. Most Windows fonts are OpenType (replacing the earlier TrueType) but some design programs and printers also use Adobe Type 1 fonts.\ntag: C1 Glossary
+
+force stop\nAn Android option to close an unresponsive app.\ntag: C1 Glossary
+
+formatter board\nIn a laser printer, the unit that exposes and processes all of the data received from the computer and coordinates the steps needed to produce the finished page.\ntag: C1 Glossary
+
+FPU\n(Floating Point Unit) A math co-processor built into the CPU that performs calculations on floating point numbers.\ntag: C1 Glossary
+
+FQDN\n(Fully Qualified Domain Name) The full name of any host which reflects the hierarchy from most specific (the host) to the least specific (the top level domain\ntag: C1 Glossary
+followed by the root).\n\ntag: C1 Glossary
+FTTN\n(Fiber to the Node) A fiber optic solution which places the connection within one mile of customers with the final connections made using existing phone or cable lines.\ntag: C1 Glossary
+
+frame rate\nThe number of times the image in a video stream changes per second. This can be expressed in Hertz or Frames per Second (fps).\ntag: C1 Glossary
+
+FTTP\n(Fiber to the Premises) A fiber optic solution which places the connection inside the premises.\ntag: C1 Glossary
+
+frequency response\nThe volume that can be produced at different frequencies.\ntag: C1 Glossary
+
+friction feed\nAn impact printer mechanism that uses two rolls placed one on top of the other to force individual cut sheets of paper or envelopes through the paper path.\ntag: C1 Glossary
+
+front panel\nThe portion of the system case that provides access to removable media drives, power switch, and LEDs to indicate driver operation.\ntag: C1 Glossary
+
+FRU\n(field replaceable unit) An adapter or other component that can be replaced by a technician on-site. Most PC and laptop components are FRUs, while the components of smartphones are not.\ntag: C1 Glossary
+
+FTP\n(File Transfer Protocol) A protocol used to transfer files across the Internet. Variants include S(ecure)FTP, FTP with SSL (FTPS and FTPES), and T(rivial)FTP.\ntag: C1 Glossary
+
+FTP utilizes\nports 20 and 21.\ntag: C1 Glossary
+
+FTTC\n(Fiber to the Curb/Cabinet) A fiber optic solution which places the connection on a pole or cabinet at the curb, then coax or twisted pair cables carry the signal from this point to the home or business.\ntag: C1 Glossary
+
+FTTH\n(Fiber to the Home) A fiber optic solution which places the connection inside the home or residence.\ntag: C1 Glossary
+
+fuse\nA circuit breaker designed to protect the device and users of the device from faulty wiring or supply of power (overcurrent protection).\ntag: C1 Glossary
+
+fuser assembly\nThe part of a laser printer that fixes toner to media. This is typically a combination of a heat and pressure roller, though non-contact flash fusing using xenon lamps is found on some high-end printers.\ntag: C1 Glossary
+
+game pad\nA controller containing multiple buttons and toggles, each of which controls a different action in a video game or program, typically held and manipulated with two hands.\ntag: C1 Glossary
+
+gaming rig\nA computer used for standalone or online gaming, often connected to surround sound speakers or headphones, sometimes integrated with virtual reality goggles. May use specialized gaming equipment such as gaming controllers, joysticks, gaming mouse, and keyboard.\ntag: C1 Glossary
+
+GDI\n(Graphics Device Interface) The Windows XP component responsible for drawing graphics objects. Cheaper printers use GDI as the print processor. Windows Vista and later have a redesigned display/print architecture called Windows Presentation Foundation, but retain compatibility with GDI applications.\ntag: C1 Glossary
+
+geolocation\nThe process of identifying the real-world geographic location of an object, often by associating a location such as a street address with an IP address, hardware address, Wi-Fi positioning system, GPS coordinates, or some other form of information.\ntag: C1 Glossary
+
+global address\nIn an IPv6 address, an address that is unique on the Internet (equivalent to public addresses in IPv4).\ntag: C1 Glossary
+
+gloss coating\nA display coating that helps the display appear richer, but reflects more light, which can cause problems with screen glare and reflections of background objects. Compare with matte coating.\ntag: C1 Glossary
+
+Google account\nAn account from Google used to access an Android device and related online services.\ntag: C1 Glossary
+
+Gov Cloud\nA Google cloud service that can be used by branches of the U.S. government, but is not available to other consumers or businesses.\ntag: C1 Glossary
+
+GP registers\n(General Purpose registers) Registers that store data from the CPU's basic instruction set. 32-bit processors have 32-bit GP registers for the x86/IA-32 instruction set; 64-bit processors are so-called because they have 64-bit GP registers. CPUs also support larger registers to optimize graphics processing.\ntag: C1 Glossary
+
+GPS\n(Global Positioning System) Means of determining a receiver's position on the Earth based on information received from GPS satellites. The receiver must have line-of-sight to the GPS satellites.\ntag: C1 Glossary
+
+GPT\n(GUID Partition Table) A modern disk partitioning system allowing large numbers of partitions and very large partition sizes.\ntag: C1 Glossary
+
+GPU\n(Graphics Processing Unit) a Type of microprocessor used on dedicated video adapter cards or within a CPU with integrated graphics capability.\ntag: C1 Glossary
+
+graphics adapter\nSee video card.\nProvides the interface between the graphics components of the computer and the display device. A number of connectors may be provided for the display, including VGA, DVI, and HDMI. Most adapters come with their own processor (Graphics Processing Unit [GPU]) and onboard memory. video projector A large format display in which the image is projected onto a screen or wall using a lens system.\ntag: C1 Glossary
+
+grounded\nAn equipment ground provides a safe path for electrical current to flow away in the event that a device or cable is faulty. Self-grounding removes any static potential difference between a technician's clothes and body and a device they are handling, reducing the risk of damaging the component through Electrostatic Discharge (ESD).\ntag: C1 Glossary
+
+GSM\n(Global System for Mobile Communication) Standard for cellular radio communications and data transfer. GSM phones use a SIM card to identify the subscriber and network provider. 4G and later data standards are developed for GSM.\ntag: C1 Glossary
+
+gyroscope\nMobile device technology that can determine the rotation of a device with a sensor that measures the rotation of the device. (See also accelerometer/gyroscope).\ntag: C1 Glossary
+
+haptic feedback\nTactile response on a touchscreen device, typically a slight vibration of the surface, although the entire device can vibrate in certain responses.\ntag: C1 Glossary
+
+hard copy\nPrinter output of electronic documents onto paper.\ntag: C1 Glossary
+
+hardware RAID solution\nA method of creating volumes from an array of physical disks by using a plug-in controller card or the motherboard, independently of the installed OS.\ntag: C1 Glossary
+
+HAV\n(Hardware Assisted Virtualization) Instruction set extensions (Intel VT-x and AMD-V) that facilitate the operation of virtual machines.\ntag: C1 Glossary
+
+HBA\n(host bus adapter) A component allowing storage devices to exchange data with a computer system using a particular interface (PATA, SATA, SCSI, and so on). Motherboards will come with built-in host adapters and more can be added as expansion cards if necessary.\ntag: C1 Glossary
+
+HDD\n(Hard Disk Drive) A device providing persistent mass storage for a PC (saving data when the computer is turned off). Data is stored using platters with a magnetic coating that are spun under disk heads that can read and write to locations on each platter (sectors). A HDD installed within a PC is referred to as the fixed disk. HDDs are often used with enclosures as portable storage or as Network Attached Storage (NAS).\ntag: C1 Glossary
+
+HFC Cable\n(Hybrid Fiber Coax cable) A cable Internet connection is usually available along with a cable telephone/television service (Cable Access TV [CATV]). These networks are often described as Hybrid Fiber Coax (HFC) as they combine a fiber optic core network with coax links to consumer premises equipment, but are more simply just described as "cable." Consumers interface with the service via a cable "modem" (actually functioning more like a bridge).\ntag: C1 Glossary
+
+HDMI\n(High Definition Multimedia Interface) High-specification digital connector for audio-video equipment.\ntag: C1 Glossary
+
+HIDS\n(Human Interface Devices) Peripherals that enable the user to enter data and select commands.\ntag: C1 Glossary
+
+head unit\nIn a car, the unified hardware interface for the audio system and related components.\ntag: C1 Glossary
+
+home server PC\nEither a home theater PC (HTPC) with a slightly expanded role or a repurposed desktop or low-end PC server used primarily for file storage, media streaming, and printer sharing.\ntag: C1 Glossary
+
+headset\nA device that combines headphones and microphone in a single device.\ntag: C1 Glossary
+
+heat pipe\nA sealed tube containing water or ethanol coolant. The liquid close to the heat source evaporates then condenses at a cooler point in the pipe and flows back towards the heat source.\ntag: C1 Glossary
+
+heat sink\nA passive heat exchanger that dissipates heat from a source such as a CPU and transfers it, normally via an enlarged surface area, to another medium such as air or water.\ntag: C1 Glossary
+
+heat spreader\nSimilar to a heat pipe except it is a flat container rather than a pipe.\ntag: C1 Glossary
+
+heating element\nIn a thermal printer, the component within the printer that is heated to react to chemicals in thermal paper to change color, creating images on the thermal paper.\ntag: C1 Glossary
+
+heuristic\nMonitoring technique that allows dynamic pattern matching based on past experience rather than relying on pre-loaded signatures.\ntag: C1 Glossary
+
+host controller\nA hardware component of the USB subsystem responsible for recognizing when a USB device is attached or removed from the system, monitors the device status, provides power to the USB devices, and controls the flow of data between the USB host and USB devices.\ntag: C1 Glossary
+
+host firewall\nSee personal firewall.\nA firewall implemented as applications software running on the host. Personal software firewalls can provide sophisticated filtering of network traffic and also block processes at the application level. However, as a user-mode application they are more vulnerable to attack and evasion than kernel mode firewalls or network firewall appliances.\ntag: C1 Glossary
+
+host ID\nIn an IP address, the portion of the address that uniquely identifies a host on a particular IP network\ntag: C1 Glossary
+
+host name\nThe description name assigned to a computer.\ntag: C1 Glossary
+
+host-hinted mode\nA SATA standard (version 3.2) that defines a set of commands to allow the host computer to specify how the cache should be used.\ntag: C1 Glossary
+
+hot swappable\nA device that can be added or removed without having to restart the operating system.\ntag: C1 Glossary
+
+hotspot\nA location served by some sort of device offering Internet access via Wi-Fi.\ntag: C1 Glossary
+
+HT\n(HyperThreading) Intel CPU architecture implemented on many Pentium 4 models. HT exposes two or more logical processors to the OS, delivering performance benefits similar to SMP.\ntag: C1 Glossary
+
+HTPC\n(Home Theater PC) A PC used in place of consumer appliances such as Personal Video Recorders (PVRs) to watch and record TV broadcasts and play movies and music.\ntag: C1 Glossary
+
+I/O addresses\n(Input/Output addresses) Input/output peripherals have a special area of memory in the range 0000-FFFF set aside to allow data reading and writing functions. This is normally configured by Plug-and-Play but can be set manually using Device Manager.\ntag: C1 Glossary
+
+I/O port\nA device connection through which data can be sent and received.\ntag: C1 Glossary
+
+IA-32\nSee x86-32.\nThe instruction set used by IBM PC compatible CPUs.\ntag: C1 Glossary
+
+HTT\n(HyperThreading technology) Intel's term for HyperThreading.\ntag: C1 Glossary
+
+IA-64\nThe 64-bit instruction set developed by Intel for its Itanium server CPU platform that never gained acceptance in the PC market.\ntag: C1 Glossary
+
+HTTP\n(HyperText Transfer Protocol) The protocol used to provide web content to browsers. HTTP uses port 80. HTTPS(ecure) provides for encrypted transfers, using SSL/TLS and port 443.\ntag: C1 Glossary
+
+IaaS\n(Infrastructure as a Service) A cloud computing service that enables a consumer to outsource computing equipment purchases and running their own data center.\ntag: C1 Glossary
+
+HTTPS\n(HTTP Secure) A protocol that provides for encrypted transfers, using SSL/TLS and port 443.\ntag: C1 Glossary
+
+IC\n(integrated circuit) A silicon chip embedded on a ceramic plate.\ntag: C1 Glossary
+
+hub\nAn OSI layer 1 (Physical) network device used to implement a star network topology on legacy Ethernet networks. Hubs may also be known as "multiport repeaters" or concentrators. They are the central points of connection for segments and act like repeaters so that every segment receives signals sent from any other segment.\ntag: C1 Glossary
+
+HVAC\n(Heating, Ventilation, and Air Conditioning) The building environmental heating and cooling services and the control of those systems.\ntag: C1 Glossary
+
+hybrid drive\nA drive in which a portion is SSD, which functions as a large cache, containing frequently accessed data and a magnetic disk portion which is only spun up when non-cached data is accessed.\ntag: C1 Glossary
+
+ICMP\n(Internet Control Message Protocol) IP- level protocol for reporting errors and status information supporting the function of troubleshooting utilities such as ping.\ntag: C1 Glossary
+
+IDE\n(Integrated Development Environment) A programming environment that typically includes a code editor containing an autocomplete feature to help you write code, a debugger to help you find coding errors, and an interpreter that translates the script file code into machine readable code the computer can execute.\ntag: C1 Glossary
+
+IDS\n(Intrusion Detection System) Software or security appliance designed to monitor network traffic (NIDS) or configuration files and logs on a host (HIDS) to record and detect unusual activity. Many systems can automatically take preventive action (Intrusion Prevention System [IPS]). Detection is either signature-based or anomaly-based (or both). IDS software typically requires a lengthy period of configuration and "training" to recognize baseline "normal" activity.\ntag: C1 Glossary
+
+IEEE 802.11\nA series of Wi-Fi standards used to implement Wireless Local Area Networks.\ntag: C1 Glossary
+
+illuminance\nThe light projecting power. Compare with luminance.\ntag: C1 Glossary
+
+imaging drum\nSee EP drum.\n(Electrostatic Photographic drum) The component in a laser printer that carries the electrical charge to attract toner and then to transfer the toner to the paper.\ntag: C1 Glossary
+
+IMAP\n(Internet Message Access Protocol) A TCP/IP application protocol providing a means for a client to access email messages stored in a mailbox on a remote server. Unlike POP3, messages persist on the server after the client has downloaded them. IMAP also supports mailbox management functions, such as creating subfolders and access to the same mailbox by more than one client at the same time. IMAP4 utilizes TCP port number 143.\ntag: C1 Glossary
+
+IMEI number\n(International Mobile Equipment Identity number) A number that uniquely identifies a mobile device on a GSM network.\ntag: C1 Glossary
+
+impact printer\nTypically, a dot matrix printer, this uses pressure to transfer ink from a ribbon onto paper in a particular pattern, similar to the mechanism of a typewriter.\ntag: C1 Glossary
+
+IMSI number\n(International Mobile Subscriber Identity number) A number that uniquely identifies a mobile subscriber.\ntag: C1 Glossary
+
+incident\nSomething that is not normal and disrupts regular operations in the computing environment.\ntag: C1 Glossary
+
+infrastructure mode\nWi-Fi network configuration in which each client device or station is configured to connect to the network via an access point.\ntag: C1 Glossary
+
+ink cartridge\nIn an inkjet printer, a cartridge containing an ink reservoir and sensors to detect the amount of remaining ink, typically with separate cartridges for cyan, magenta, yellow, and black ink. Most ink cartridges also contain the print head for the printer.\ntag: C1 Glossary
+
+ink dispersion printer\nBetter known as inkjets, this is a type of printer where colored ink is sprayed onto the paper using microscopic nozzles in the print head. There are two main types of ink dispersion system: thermal shock (heating the ink to form a bubble that bursts through the nozzles) and piezoelectric (using a tiny element that changes shape to act as a pump).\ntag: C1 Glossary
+
+ink jet printer\nSee ink dispersion printer.\nBetter known as inkjets, this is a type of printer where colored ink is sprayed onto the paper using microscopic nozzles in the print head. There are two main types of ink dispersion system: thermal shock (heating the ink to form a bubble that bursts through the nozzles) and piezoelectric (using a tiny element that changes shape to act as a pump).\ntag: C1 Glossary
+
+input voltage\nA PSU setting to set North American power supplies to 115 V and UK power supplies to 240 V.\ntag: C1 Glossary
+
+instruction set\nThe machine language code and commands the CPU can process.\ntag: C1 Glossary
+
+insulator\nA material that does not conduct electricity, such as rubber or plastic.\ntag: C1 Glossary
+
+integrated GPU\n(integrated graphics processing unit) A graphics adapter built into the motherboard or the CPU.\ntag: C1 Glossary
+
+interface\nThe point at which two devices connect and communicate with each other.\ntag: C1 Glossary
+
+internal transfer rate\nA measure of how fast read/write operations are performed on the disk platters. Also known as data or disk transfer rate.\ntag: C1 Glossary
+
+Internet backbone\nThe major infrastructure of the Internet.\ntag: C1 Glossary
+
+intranet\nA network designed for information processing within a company or organization. An intranet uses the same technologies as the Internet but is owned and managed by a company or organization.\ntag: C1 Glossary
+
+inventory management\nAn inventory is a list of things, usually stored in a database. Inventories are usually compiled for assets.\ntag: C1 Glossary
+
+IoT\n(Internet of Things) The global network of personal devices (such as phones, tablets, and fitness trackers), home appliances, home control systems, vehicles, and other items that have been equipped with sensors, software, and network connectivity.\ntag: C1 Glossary
+
+IP\n(Internet Protocol) The network (Internet) layer protocol in the TCP/IP suite providing packet addressing and routing for all higher level protocols in the suite.\ntag: C1 Glossary
+
+IP scale\n(ingress protection scale) An international standard to determine how well electrical enclosures are sealed against dust, water, moisture, and other intrusive materials from entering the enclosure. The ratings scale is defined in the British EN60529:1992 and European IEC 60509:1989 standards.\ntag: C1 Glossary
+
+IPS\n(in-plane switching) An LCD panel technology designed to resolve the quality issues inherent in TN panel technology, including strong viewing angle dependence and low-quality color reproduction.\ntag: C1 Glossary
+
+IPS\n(Intrusion Protection System) Systems that can automatically take preventive action using signature-based or anomaly-based detection. Also known as network IDS (NIDS).\ntag: C1 Glossary
+
+IPS\n(Indoor Positioning Systems) A system that works out a device's location by triangulating its proximity to other radio sources, such as Wi-Fi access points or Bluetooth beacons.\ntag: C1 Glossary
+
+IPSec\n(Internet Protocol Security) Layer 3 protocol suite providing security for TCP/IP. It can be used in two modes (transport, where only the data payload is encrypted, and tunnel, where the entire IP packet is encrypted and a new IP header added). IPsec can provide confidentiality and/or integrity. Encryption can be applied using a number of hash (MD5 or SHA) and symmetric (DES or AES) algorithms. Key exchange and security associations are handled by the Internet Key Exchange Protocol. Hosts can be authenticated by a shared secret, PKI, or Kerberos.\ntag: C1 Glossary
+
+IR\n(Infrared) Infrared Data Association (IrDA) was a wireless networking standard supporting speeds up to about 4 Mbps. Infrared (IR) sensors are used in mobile devices and with IR blasters to control appliances.\ntag: C1 Glossary
+
+IRQ\n(Interrupt Request) A communications channel between a hardware device and the system processor. Originally, when hardware was added to the computer it had to be manually configured with a unique interrupt number (between 0 and 15). Plug-and-Play compatible systems configure resources automatically. The PCI bus introduced IRQ steering, which allowed IRQs to be shared. Modern computers use programmable interrupt controllers, allowing for hundreds of interrupts.\ntag: C1 Glossary
+
+ISDN\n(Integrated Services Digital Network) A digital phone/fax/data service used to provide Internet connectivity. There are two classes of ISDN: Basic Rate Interface (BRI) provides two 64 Kbps (B channels) for data and one 16 Kbps (D channel) for link management control signals; Primary Rate Interface (PRI) provides either T1 or E1 capacity levels (23B or 30B) channels, depending on location in the world, and one 64 Kbps D channel.\ntag: C1 Glossary
+
+ISP\n(Internet Service Provider) An organization that provides a connection to the Internet and other web- and email-related services. A connection to the ISP's Internet routing equipment can be made using a variety of methods.\ntag: C1 Glossary
+
+IXPs\n(Internet eXchange Points) High bandwidth trunks that connect to the Internet backbone.\ntag: C1 Glossary
+
+jailbreaking\nRemoving manufacturer restrictions on a device to allow other software, operating systems, or networks to work with a device. Typically refers to iPhone devices.\ntag: C1 Glossary
+
+jitter\nA variation in the time it takes for a signal to reach the recipient. Jitter manifests itself as an inconsistent rate of packet delivery. If packet loss or delay is excessive, then noticeable audio or video problems (artifacts) are experienced by users.\ntag: C1 Glossary
+
+joystick\nA pivoting stick or lever attached to a base that is used to control movement on a device.\ntag: C1 Glossary
+
+jumper\nA small plastic clip containing a metal conductor that fits over two contacts to complete a circuit that configures the motherboard or adapter card one way or another.\ntag: C1 Glossary
+
+keyboard\nThe oldest PC input device and still fundamental to operating a computer. There are many different designs and layouts for different countries. Some keyboards feature special keys.\ntag: C1 Glossary
+
+keyed port\nA port with physical attributes that prevent a connector from being inserted into the port the wrong way around.\ntag: C1 Glossary
+
+KVM switch\n(Keyboard Video Mouse switch) A switch supporting a single set of input and output devices controlling a number of PCs. KVM are more typically used with servers but 2-port versions allow a single keyboard, mouse, and display to be used with two PCs.\ntag: C1 Glossary
+
+LAN\n(Local Area Network) A network in which all the nodes or hosts participating in the network are directly connected with cables or short-range wireless media.\ntag: C1 Glossary
+
+lands\nIn optical storage media, raised areas on the disk.\ntag: C1 Glossary
+
+lanes\nIn PCIe, two wire pairs (four wires in total) using low voltage differential signaling, with one pair used to transmit and the other pair to receive (bi-directional).\ntag: C1 Glossary
+
+laptop\nA portable computer offering similar functionality to a desktop computer. Laptops come with built-in LCD screens and input devices (keyboard and touchpad), and can be powered from building power (via an AC adapter) or by a battery.\ntag: C1 Glossary
+
+laser printer\nA type of printer that develops an image on a drum using electrical charges to attract special toner then applying it to paper. The toner is then fixed to the paper using a high-heat and pressure roller (fuser). The process can be used with black toner only or four color toner cartridges (Cyan, Magenta, Yellow, and Black) to create full-color prints. Monochrome laser printers are the "workhorses" of office printing solutions.\ntag: C1 Glossary
+
+latency\nThe time it takes for a signal to reach the recipient. A video application can support a latency of about 80 ms, while typical latency on the Internet can reach 1000 ms at peak times. Latency is a particular problem for 2-way applications, such as VoIP (telephone) and online conferencing.\ntag: C1 Glossary
+
+LC\n(Lucent Connector) Small Form Factor version of the SC push-pull fiber optic connector; available in simplex and duplex versions.\ntag: C1 Glossary
+
+LCD panel\n(Liquid Crystal Display panel) A display technology where the image is made up of liquid crystal cells controlled using electrical charges. LCD panels are used on laptops and have replaced CRT monitors as the main type of computer display screen.\ntag: C1 Glossary
+
+LDAP\n(Lightweight Directory Access Protocol) Standard for accessing and updating information in an X.500-style network resource directory. LDAP uses port 389. Unless secure communications are used, LDAP is vulnerable to packet sniffing and Man-in-the-Middle attacks. It is also usually necessary to configure user permissions on the directory. LDAP version 3 supports simple authentication or Simple Authentication and Security Layer, which integrates it with Kerberos or TLS.\ntag: C1 Glossary
+
+LED\n(Light Emitting Diode) Small, low-power lamps used both as diagnostic indicators, LCD backlights, and (as Organic LEDs) in high-quality flat panels.\ntag: C1 Glossary
+
+LED printer\n(light emitting diode printer) A type of printer that uses LEDs to print.\ntag: C1 Glossary
+
+legacy system\nA computer system that is no longer supported by its vendor and so no longer provided with security updates and patches.\ntag: C1 Glossary
+
+LGA\n(Land Grid Array) A CPU form factor used by Intel where the pins that connect the CPU and socket are located on the socket.\ntag: C1 Glossary
+
+life expectancy\nThe length of time for which a device can be expected to remain reliable.\ntag: C1 Glossary
+
+light sensors\nSensors in a mobile device used to dim and brighten the display based on ambient conditions.\ntag: C1 Glossary
+
+Lightning ports\nProprietary connector and interface for Apple devices.\ntag: C1 Glossary
+
+link\nPoint-to-point connections in PCIe.\ntag: C1 Glossary
+
+link-local address\nAddresses used by IPv6 for network housekeeping traffic. Link-local addresses span a single subnet (they are not forwarded by routers).\ntag: C1 Glossary
+
+load roller\nIn an inkjet printer, a roller that turns against the paper stack to move the top sheet, while a separation roller prevents more than one sheet from entering the printer.\ntag: C1 Glossary
+
+local bus\nThe internal bus that links components directly to the processor, resulting in the highest possible data speed as required by components such as the video display.\ntag: C1 Glossary
+
+locally installed printer\nA printer that Windows communicates with directly over the relevant port.\ntag: C1 Glossary
+
+locked out\nWhen a user is unable to access a device because the device has been disabled either by means of the user forgetting the passcode too many times or remotely using an app that locks the device if it is reported lost or stolen.\ntag: C1 Glossary
+
+LoJack tracking software\n"Rootkit"-style software that enables a stolen laptop to be traced or remotely locked down or wiped in the event of theft.\ntag: C1 Glossary
+
+loopback plug\nA special connector used for diagnosing network transmission problems that redirects electrical signals back to the transmitting system.\ntag: C1 Glossary
+
+LoS\n(Line of Sight) A wireless connection method using ground-based microwave antennas aligned with one another.\ntag: C1 Glossary
+
+low level format\nA "proper" low level format creates cylinders and sectors on the disk. This can generally only be done at the factory. The disk utilities just clean data from each sector; they don't re-create the sector layout.\ntag: C1 Glossary
+
+LTE\n(Long Term Evolution) A packet data communications specification providing an upgrade path for both GSM and CDMA2000 cellular networks. LTE Advanced is designed to provide 4G standard network access.\ntag: C1 Glossary
+
+LTE-A\n(LTE Advanced) LTE Advanced is designed to provide 4G standard network access luminance The perceived brightness of a display screen, measured in candelas per square meter (cd/m2).\ntag: C1 Glossary
+
+MAC address\nA unique physical hardware address for each Ethernet network adapter that is composed of 12 hexadecimal digits.\ntag: C1 Glossary
+
+MAC filtering\n(media access control filtering) Applying an access control list to a switch or access point so that only clients with approved MAC addresses can connect to it.\ntag: C1 Glossary
+
+Machine to Machine (M2M)\nInternet of Things feature that allows objects to communicate and pass data between themselves and other traditional systems like computer servers.\ntag: C1 Glossary
+
+main board\nSee motherboard.\nThe computer motherboard, also called the system board, provides the basic foundation for all of the computer's hardware, including the processor, RAM, firmware, and expansion cards. Several motherboard standards are available, each with a different layout and associated advantages.\ntag: C1 Glossary
+
+main connector\nThe adapter from the power supply that supplies power to the motherboard.\ntag: C1 Glossary
+
+maintenance kit\nA set of replacement feed rollers, new transfer roller, and a new fuser unit for a laser printer.\ntag: C1 Glossary
+
+male port\nA port that has pin connectors.\ntag: C1 Glossary
+
+managed_switch\nWorks as an unmanaged switch out-of-the-box but an administrator can connect to it over a management port, configure security settings, and then choose options for the switch's more advanced functionality.\ntag: C1 Glossary
+
+MAPI\n(Message Application Programming Interface) A Windows messaging interface used primarily by the email client software Outlook to communicate with an Exchange mail server.\ntag: C1 Glossary
+
+mass storage device\nNon-volatile storage devices that are able to hold data when the system is powered off.\ntag: C1 Glossary
+
+matte coating\nA display coating that is best suited to office work. Compare with gloss coating.\ntag: C1 Glossary
+
+MBR\n(Master Boot Record) A sector on a hard disk storing information about partitions configured on the disk.\ntag: C1 Glossary
+
+MDM\n(Mobile Device Management) Software suites designed to manage use of smartphones and tablets within an enterprise.\ntag: C1 Glossary
+
+measured service\nA provider's ability to control and bill a customer's use of resources such as CPU, memory, disk, and network bandwidth through metering.\ntag: C1 Glossary
+
+media center\nA computer used for media streaming, often connected to surround sound speakers, and capable of recording TV shows.\ntag: C1 Glossary
+
+media guides\nIn a paper tray, the movable components that can be adjusted to hold the paper in the proper position for feeding through the printer.\ntag: C1 Glossary
+
+megapixels\nA unit of measure for the number of pixels a digital camera is capable of producing.\ntag: C1 Glossary
+
+MEID\n(Mobile Equipment ID) A number that uniquely identifies a mobile device on a CDMA network.\ntag: C1 Glossary
+
+memory card\nFlash drives typically used for digital cameras and smartphones; typically small and flat.\ntag: C1 Glossary
+
+memory card reader\nA device containing one or more slots to accommodate reading (and writing) memory cards.\ntag: C1 Glossary
+
+memory module\nA printed circuit board that holds a group of memory chips that act as a single unit.\ntag: C1 Glossary
+
+MFD\n(multifunction device) Any device that performs more than one function. This typically refers to either SOHO Internet routers/access points or print devices that can also scan and fax.\ntag: C1 Glossary
+
+MIB\n(Management Information Base) A database used by SNMP in which agents maintain configuration and usage data and identifies what information the managed system offers.\ntag: C1 Glossary
+
+microATX\nIntroduced in late 1997, and is often referred to as μATX, and has a maximum size of 9.6 inches by 9.6 inches.\ntag: C1 Glossary
+
+microprocessor\nA programmable integrated circuit (IC).\ntag: C1 Glossary
+
+microsegmentation\nEach switch port is a separate collision domain. In effect, the switch establishes a point-to-point link called a virtual circuit between any two network nodes.\ntag: C1 Glossary
+
+MIDI\n(Musical Instrument Digital Interface) Allows a computer with a sound card to drive MIDI compatible musical instruments, such as synthesizers, samplers, and drum machines (or [vice versa] for a synthesizer to drive a computer audio application [such as a sampler]).\ntag: C1 Glossary
+
+MIME\n(Multi-purpose Internet Mail Extensions) A protocol specifying Internet mail message formats and attachments.\ntag: C1 Glossary
+
+MIMO/MU-MIMO\n(Multiple Input Multiple Output/Multiple User MIMO) Wireless technology used in 802.11n/ac and 4G standards. MIMO is the use of multiple reception and transmission antennas to boost bandwidth. A Multi-user MIMO (MU-MIMO)-capable access point can use separate streams to connect multiple MU-MIMO-capable stations simultaneously, providing the stations are not on the same directional path.\ntag: C1 Glossary
+
+mini-ITX\nA small compact board that fits the same form factor as the ATX and the micro-ATX boards. They have a maximum size of 6.7 inches by 6.6 inches.\ntag: C1 Glossary
+
+mirroring\nMirroring is a type of RAID (RAID 1) using two hard disks, providing the simplest way of protecting a single disk against failure. Data is written to both disks and can be read from either disk.\ntag: C1 Glossary
+
+MMF\n(Multimode Fiber) A category of fiber optic cable. Compared to SMF, MMF is cheaper (using LED optics rather than lasers), but supports shorter distances (up to about 500 m).\ntag: C1 Glossary
+
+mobile device synchronization\nCopying data back and forth between a mobile device and another device such as another mobile device, tablet, laptop, PC, or cloud service to keep the information up-to-date on all of the devices.\ntag: C1 Glossary
+
+mobile hotspot\nSee tethering.\nUsing the cellular data plan of a mobile device to provide Internet access to a laptop or PC. The PC can be tethered to the mobile by USB, Bluetooth, or Wi-Fi (a mobile hotspot).\ntag: C1 Glossary
+
+mobile VPN\nA VPN that can maintain the VPN link across multiple carrier networks, where the IP address assigned to the mobile device may change often.\ntag: C1 Glossary
+
+mobile VR headset\n(mobile Virtual Reality headset) A VR device designed to be used with specific smartphones.\ntag: C1 Glossary
+
+mobo\nSee motherboard.\nThe computer motherboard, also called the system board, provides the basic foundation for all of the computer's hardware, including the processor, RAM, firmware, and expansion cards. Several motherboard standards are available, each with a different layout and associated advantages.\ntag: C1 Glossary
+
+modem\n(modulator/demodulator) A network device that is used to interface a computer with the telephone network for data and fax communications, modulating digital data for transmission as an analog signal and demodulating incoming analog transmissions. Broadband modems are used to transmit signals over telephone (DSL) or cable TV networks.\ntag: C1 Glossary
+
+Molex connector\nA power connector that is used to supply power to Parallel Advanced Technology Attachment (PATA) drives, optical drives, and SCSI drives.\ntag: C1 Glossary
+
+motherboard\nThe computer motherboard, also called the system board, provides the basic foundation for all of the computer's hardware, including the processor, RAM, firmware, and expansion cards. Several motherboard standards are available, each with a different layout and associated advantages.\ntag: C1 Glossary
+
+mouse\nThe essential device to implement a WIMP GUI, a mouse simply controls the movement of a cursor that can be used to select objects from the screen. All Windows mice feature two click buttons, which are configured to perform different actions. Many mice also feature a scroll wheel.\ntag: C1 Glossary
+
+MTBF\n(Mean Time Between Failures) The rating on a device or component that predicts the expected time between failures.\ntag: C1 Glossary
+
+multimedia\nMultimedia refers to PC components that can playback and record sound and video (or to sound and video files). There are numerous sound and video file formats, including legacy Windows-specific formats such as WAV (for audio) or AVI (for video and audio). The preferred file format for Windows Media Player is ASF (Advanced Systems Format), which is usually compressed (WMA or WMV). Other file formats include those used for Apple's QuickTime player (MOV and QT), Apple's iTunes format (AIFF), and RealNetworks player (RA or RAM). The most popular standards-based format is MPEG.\ntag: C1 Glossary
+
+multimeter\nAn electrical meter capable of measuring voltage, resistance, and current. Voltage readings can be used to determine whether, for example, a power supply unit is functioning correctly. Resistance readings can be used to determine whether a fuse or network cable is functioning correctly.\ntag: C1 Glossary
+
+multiport repeater\nSee hub.\nAn OSI layer 1 (Physical) network device used to implement a star network topology on legacy Ethernet networks. Hubs may also be known as "multiport repeaters" or concentrators. They are the central points of connection for segments and act like repeaters so that every segment receives signals sent from any other segment.\ntag: C1 Glossary
+
+multitasking\nThe ability of an operating system to run multiple programs, or tasks, at one time. DOS was a single tasking operating system. Windows 3.x was a cooperative multitasking operating system, while Windows 9x and higher provide pre-emptive multitasking. Cooperative multitasking relies on the applications to share CPU cycles with one another and to voluntarily relinquish the processor to other tasks, which has reliability implications.\ntag: C1 Glossary
+
+multithreaded\nSoftware that runs multiple parallel threads within a process.\ntag: C1 Glossary
+
+multitouch\nA touchscreen or touchpad capable of interpreting gestures, such as pinching or swiping.\ntag: C1 Glossary
+
+mutual authentication for multiple services\n(SSO [Single Sign On]) One service accepts the credentials from another service. Also known as federated identity management.\ntag: C1 Glossary
+
+NAPT\n(Network Address Port Translation) Similar to NAT, it (or PAT or NAT overloading) maps private host IP addresses onto a single public IP address. Each host is tracked by assigning it a random high TCP port for communications.\ntag: C1 Glossary
+
+NAS\n(Network Attached Storage) A storage device with an embedded OS that supports typical network file access protocols (TCP/IP and SMB, for instance). These may be subject to exploit attacks (though using an embedded OS is often thought of as more secure as it exposes a smaller attack "footprint"). The unauthorized connection of such devices to the network is also a concern.\ntag: C1 Glossary
+
+network firewall\nA firewall placed inline in the network that inspects all traffic that passes through it.\ntag: C1 Glossary
+
+NAT\n(Network Address Translation) A network service provided by router or proxy server to map private local addresses to one or more publicly accessible IP addresses. NAT can use static mappings but is most commonly implemented as Network Address Port Translation (NAPT) or NAT overloading, where a few public IP addresses are mapped to multiple LAN hosts using port allocations.\ntag: C1 Glossary
+
+Network Interface layer\nIn the TCP/IP suite, the layer responsible for putting frames onto the physical network.\ntag: C1 Glossary
+
+native resolution\nThe fixed resolution for LCD or other flat panel display devices.\ntag: C1 Glossary
+
+Negative Acknowledgement\n(NACK) On a TCP/IP network, when using TCP and the data is delivered in a damaged state, a NACK packet is sent back to the sender to force retransmission of the data.\ntag: C1 Glossary
+
+NetBEUI\nA proprietary Microsoft network transport protocol typically found in non-routed networks. Fast and efficient, but not widely supported by third parties. Largely forgotten in these days of TCP/IP.\ntag: C1 Glossary
+
+NetBIOS\nNetBIOS is a session management protocol used to provide name registration and resolution services on legacy Microsoft networks. WINS provides NetBIOS name resolution. See also NetBEUI.\ntag: C1 Glossary
+
+NetBT\n(NetBIOS over TCP/IP) NetBIOS that was re-engineered to work over the TCP and UDP protocols.\ntag: C1 Glossary
+
+network\nTwo or more computer systems linked together by some form of transmission medium that enables them to share information.\ntag: C1 Glossary
+
+NFC\n(Near Field Communications) A Standard for peer-to-peer (2-way) radio communications over very short (around 4") distances, facilitating contactless payment and similar technologies. NFC is based on RFID.\ntag: C1 Glossary
+
+NIC\n(Network interface Card) An expansion card that enables a PC to connect to a LAN. Also referred to as a network adapter.\ntag: C1 Glossary
+
+NIST\n(National Institute of Standards and Technology) Develops computer security standards used by US federal agencies and publishes cybersecurity best practice guides and research.\ntag: C1 Glossary
+
+NLA\n(Network Level Authentication) An RDP technology requiring users to authenticate before a server session is created.\ntag: C1 Glossary
+
+non-parity\nSystem memory that does not perform error checking (except for the startup memory count).\ntag: C1 Glossary
+
+notification shade\nAn Android feature that is accessed by swiping down from the top of the display to access Android OS feature settings.\ntag: C1 Glossary
+
+NVMe\n(Non-volatile Memory Express) An interface for connecting flash memory devices, such as SSDs, directly to a PCI Express bus. NVMe allows much higher transfer rates than SATA/AHCI.\ntag: C1 Glossary
+
+network ID\nIn an IP address, the portion of the address that is common to all hosts on the same IP network.\ntag: C1 Glossary
+
+NVMHCI\n(Non-Volatile Memory Host Controller Interface specification) A logical interface used by PCIe-based SSD drives to communicate with the bus.\ntag: C1 Glossary
+
+OCP\n(Overcurrent Protection) A power supply rail safety feature that cuts the circuit if the power exceeds a safe limit.\ntag: C1 Glossary
+
+OCR\n(Optical Character Recognition) Software that can identify the shapes of characters and digits to convert them from printed images to electronic data files that can be modified in a word processing program.\ntag: C1 Glossary
+
+Intelligent Character Recognition\n(ICR) is an advanced type of OCR, focusing on handwritten text.\ntag: C1 Glossary
+
+octet\n32 bit addresses subdivided into four groups of 8 bits (1 byte).\ntag: C1 Glossary
+
+OLED display\n(organic light emitting diode display) A type of LED flat panel display device that uses organic compounds that emit light when subjected to an electric current.\ntag: C1 Glossary
+
+onboard adapter\nA low-end adapter included with the motherboard or as part of the CPU itself.\ntag: C1 Glossary
+
+online social lives\nAn online way to interact with other people using sites such as Facebook, Twitter, and Instagram.\ntag: C1 Glossary
+
+OSD\n(on-screen display) Display configuration menus that show up on the monitor and that you interact with by using buttons on the monitor case.\ntag: C1 Glossary
+
+OTP\n(one time password) A password that is generated for use in one specific session and becomes invalid after the session ends.\ntag: C1 Glossary
+
+overclocking\nManually setting the CPU and chipset to run at a faster speed than advised by the manufacturer. Some CPUs are better suited to overclocking than others and the system will generally need a better cooling system to cope with the increased thermal output.\ntag: C1 Glossary
+
+PaaS\n(Platform as a Service) A cloud computing service that enables consumers to rent fully configured systems that are set up for specific purposes.\ntag: C1 Glossary
+
+packet filtering\nA type of firewall that inspects the headers of IP packets and can perform filtering on IP address, protocol type, and port numbers.\ntag: C1 Glossary
+
+page description language\n(PDL) A high-level computer language used to describe the contents and the layout of the information to be printed on a page through PDL commands.\ntag: C1 Glossary
+
+PAN\n(Personal Area Network) Close range networking (usually based on Bluetooth or NFC) allowing communications between personal devices, such as smartphones, laptops, and printers/peripheral devices.\ntag: C1 Glossary
+
+paper jam\nOccurs when paper does not feed through the printer properly, resulting in pages that are stuck within the paper feed mechanism, often crumpled or torn.\ntag: C1 Glossary
+
+parity checking\nAn error checking method where each byte of data in memory is accompanied by a ninth bit used to check for corrupted data.\ntag: C1 Glossary
+
+passive cooling device\nA CPU generates a large amount of heat that must be dissipated to prevent damage to the chip. Generally, a CPU will be fitted with a heatsink (a metal block with fins) and fan. Thermal compound is used at the contact point between the chip and the heatsink to ensure good heat transfer. The PSU also incorporates a fan to expel warm air from the system. Modern motherboards have temperature sensors that provide warning of overheating before damage can occur. Very high performance or overclocked systems or systems designed for quiet operation may require more sophisticated cooling systems, such as liquid cooling. Cooling systems that work without electricity are described as passive; those requiring a power source are classed as active.\ntag: C1 Glossary
+
+PAT\n(portable appliance testing) In the UK, Australia, and New Zealand, the process for inspecting and testing electrical equipment to ensure its safety.\ntag: C1 Glossary
+
+PAT\n(port address translation) Another term for NAT overloading or NAPT.\ntag: C1 Glossary
+
+PATA\n(Parallel Advanced Technology Attachment) Used to be the main disk interface for PCs. The interface was very commonly called IDE (Integrated Drive Electronics) or Enhanced IDE (EIDE). Each PATA adapter supports two devices, commonly called master and slave. A drive is connected to the bus by a 40-pin ribbon cable. The PATA interface has been replaced by SATA.\ntag: C1 Glossary
+
+PCI bus\n(Peripheral Component Interconnect bus) Introduced in 1995 with the Pentium processor, it connects the CPU, memory, and peripherals to a 32-bit working at 33 MHz. PCI supports bus mastering, IRQ steering, and Plug-and-Play. Later versions defined 64-bit operation and 66 MHz clock but were not widely adopted on desktop PCs.\ntag: C1 Glossary
+
+PCIe\n(PCI Express) An expansion bus standard using serial communications. Each device on the bus can create a point-to-point link with the I/O controller or another device. The link comprises one or more lanes (x1, x2, x4, x8, x12, x16, or x32). Each lane supports a full-duplex transfer rate of 250 MBps (v1.0), 500 MBps (v2.0), or 1 GBps (v3.0). The standard is software compatible with PCI, allowing for motherboards with both types of connectors.\ntag: C1 Glossary
+
+permissions\nTo access files and folders on a volume, the administrator of the computer will need to grant file permissions to the user (or a group to which the user belongs). File permissions are supported by NTFS-based Windows systems.\ntag: C1 Glossary
+
+personal firewall\nA firewall implemented as applications software running on the host. Personal software firewalls can provide sophisticated filtering of network traffic and also block processes at the application level. However, as a user-mode application they are more vulnerable to attack and evasion than kernel mode firewalls or network firewall appliances.\ntag: C1 Glossary
+
+PGA\n(Pin Grid Array) A CPU socket form factor where pins are located on the bottom of the processor to fit in the matching holes in the motherboard socket. PGA-type sockets are still used by AMD but Intel has switched to Land Grid Array (LGA), where the pins are located on the socket rather than the chip.\ntag: C1 Glossary
+
+PGP\n(Pretty Good Privacy) Email encryption product providing message confidentiality and integrity using web of trust PGP certificates.\ntag: C1 Glossary
+
+photopolymer\nA polymer material that is sensitive to light, and changes its properties when exposed to a light source.\ntag: C1 Glossary
+
+pickup roller\nRoller that turns above a stack of paper to feed a sheet into the feed roller.\ntag: C1 Glossary
+
+piezoelectric printing\nInk delivery system in an inkjet printer that uses a tiny element that changes shape to act as a pump used in Epson printers.\ntag: C1 Glossary
+
+pits\nIn optical storage media, recessed areas on the disk.\ntag: C1 Glossary
+
+pixel\nThe smallest discrete element on a display. A single pixel is composed of a red, a blue, and a green dot.\ntag: C1 Glossary
+
+plenum\nAn air handling space, including ducts and other parts of the HVAC system in a building.\ntag: C1 Glossary
+
+plenum cable\nA grade of cable that does not give off noxious or poisonous gases when burned. Unlike PVC cable, plenum cable can be run through the plenum and firebreak walls.\ntag: C1 Glossary
+
+Plug and Play\nSee UPnP.\n(Universal Plug-and-Play) A protocol framework allowing network devices to autoconfigure services, such as allowing a games console to request appropriate settings from a firewall.\ntag: C1 Glossary
+
+PoE\n(Power over Ethernet) Specification allowing power to be supplied via switch ports and ordinary data cabling to devices such as VoIP handsets and wireless access points. Devices can draw up to about 13 W (or 25 W for PoE+).\ntag: C1 Glossary
+
+pointing device\nA peripheral used to move a cursor to select and manipulate objects on the screen.\ntag: C1 Glossary
+
+PoP\n(Point of Presence) The equipment that allows a location, facility, home, or other point-of-access to connect to the Internet.\ntag: C1 Glossary
+
+POP 3\n(Post Office Protocol) A TCP/IP application protocol providing a means for a client to access email messages stored in a mailbox on a remote server. The server usually deletes messages once the client has downloaded them. POP3 utilizes TCP port 110.\ntag: C1 Glossary
+
+port (logical)\nIn TCP and UDP applications, a port is a unique number assigned to a particular application protocol (such as HTTP or SMTP). The port number (with the IP address) forms a socket between client and server. A socket is a bi-directional pipe for the exchange of data. For security, it is important to allow only the ports required to be open (ports can be blocked using a firewall).\ntag: C1 Glossary
+
+port (physical)\nA hardware connection interface on a personal computer that enables devices to be connected to the computer.\ntag: C1 Glossary
+
+port forwarding\nPort forwarding means that a router takes requests from the Internet for a particular application (say, HTTP/port 80) and sends them to a designated host on the LAN.\ntag: C1 Glossary
+
+port number\nThe number between 0 and 65535 assigned to each type of network application so that the transport layer can identify it.\ntag: C1 Glossary
+
+port replicator\nA simple device to extend the range of ports (for example, USB, DVI, HDMI, Thunderbolt, network, and so on) available for a laptop computer when it is used at a desk.\ntag: C1 Glossary
+
+port triggering\nPort triggering is used to configure access through a firewall for applications that require more than one port. Basically, when the firewall detects activity on outbound port A destined for a given external IP address, it opens inbound access for the external IP address on port B for a set period.\ntag: C1 Glossary
+
+POST\n(Power-On Self-Test) A hardware checking routine built into the PC firmware. This test sequentially monitors the state of the memory chips, the processor, system clock, display, and firmware itself. Errors that occur within vital components such as these are signified by beep codes emitted by the internal speaker of the computer. Further tests are then performed and any errors displayed as on-screen error codes and messages.\ntag: C1 Glossary
+
+POTS\n(Plain Old Telephone System) Parts of a telephone network "local loop" using voice-grade cabling. Analog data transfer over POTS using dial-up modems is slow (33.3 Kbps). DSL technologies make better use of the bandwidth available, but are not accessible over all of the network.\ntag: C1 Glossary
+
+power\nThe rate at which electricity is drawn from the supply by the device using it, measured in Watts.\ntag: C1 Glossary
+
+power injector\nUsed when an existing switch does not support PoE. When a device is connected to a port on a PoE switch, the switch goes through a detection phase to determine whether the device is PoE-enabled. If not, it does not supply power over the port and therefore does not damage non-PoE devices. If so, it determines the device's power consumption and sets the supply voltage level appropriately.\ntag: C1 Glossary
+
+power management\nComputers and hardware supporting a power management specification such as ACPI (Advanced Configuration Power Interface) can enter power-saving or standby modes that can be reactivated from the host.\ntag: C1 Glossary
+
+power rating\nThe maximum power output available from a PC power supply, measured in watts, calculated as voltage multiplied by current.\ntag: C1 Glossary
+
+power supply tester\nA type of meter designed to test PC Power Supply Units.\ntag: C1 Glossary
+
+PPP\n(Point-to-Point Protocol) Dial-up protocol working at layer 2 (Data Link) used to connect devices remotely to networks. Often used to connect to an ISP's routers and out to the Internet. PPPoE (PPP over Ethernet) or PPPoA (PPP over ATM) are used to provide broadband connections (over DSL or cable Internet, for instance).\ntag: C1 Glossary
+
+PPPoA\n(PPP over ATM) The PPP protocol is used with the ATM transport protocol by DSL providers.\ntag: C1 Glossary
+
+PPPoE\n(PPP over Ethernet) PPP packets are encapsulated within Ethernet frames for transport by DSL providers.\ntag: C1 Glossary
+
+PRI\n(Preferred Roaming Index) An index that works with the PRL to provide the best data/voice quality to a phone while roaming.\ntag: C1 Glossary
+
+PRI\n(Primary Rate Interface) A class of ISDN service that provides either T1 or E1 capacity levels (23B or 30B) channels, depending on location in the world, and one 64 Kbps D channel. primary charge roller See cleaning unit.\ntag: C1 Glossary
+
+print driver\nSoftware that provides an interface between the print device and Windows.\ntag: C1 Glossary
+
+print head\nIn a dot matrix printer, pins that are fired by solenoids are secured to a moving carriage that sweeps across the paper and the pins make contact with the ribbon to press it against the paper to create images. In an inkjet printer, the print head is typically contained in the ink cartridge although Epson inkjet printers include the printhead as part of the printer instead.\ntag: C1 Glossary
+
+print job\nThe output produced by an application and passed to the printer, and then to the print device via a print monitor and port.\ntag: C1 Glossary
+
+print languages\nThe language used by printers to interpret output from the computer as printable text and images. Some printers can use multiple print languages.\ntag: C1 Glossary
+
+print monitor\nIn Windows, the print monitor is a process that checks the print queue (%SystemRoot %\System32\Spool\Printers\) for print jobs. When they arrive, they are processed, if necessary, then passed via a print port to the print device.\ntag: C1 Glossary
+
+printer\nAn output device that produces text and images from electronic content onto physical media such as paper or transparency film.\ntag: C1 Glossary
+
+printer technology\nThe mechanism used in a printer to create images on paper. It determines the quality, speed, and cost of the output.\ntag: C1 Glossary
+
+printer type\nThe mechanism used to make images on the paper. Also referred to as printer technology.\ntag: C1 Glossary
+
+PSE\n(Power Sourcing Equipment) Network switches that provide power through the Ethernet cable to connected devices.\ntag: C1 Glossary
+
+privacy filter\nA filter to fit over a display screen so that it can only be viewed straight-on.\ntag: C1 Glossary
+
+PSK\n(Pre-shared Key) Symmetric encryption technologies, such as those used for WEP, require both parties to use the same private key. This key must be kept a secret known only to those authorized to use the network. A pre-shared key is normally generated from a passphrase.\ntag: C1 Glossary
+
+private address\nIP addresses in ranges defined by RFC1928 which are not allowed to route traffic over the Internet, with those addressed being confined to private LANs.\ntag: C1 Glossary
+
+PRL\n(Preferred Roaming List) A database built by CDMA service carriers to indicate which radio bands should be used when connecting to a cell tower.\ntag: C1 Glossary
+
+problem management\nA method of identifying, prioritizing, and establishing ownership of incidents.\ntag: C1 Glossary
+
+processor\nSee CPU.\n(Central Processing Unit) The principal microprocessor in a computer or smartphone responsible for running operating system and applications software.\ntag: C1 Glossary
+
+prosumer\nA combination of the words professional and consumer, typically referring to an amateur user who uses professional level devices.\ntag: C1 Glossary
+
+protocol\nRules and formats enabling systems to exchange data. A single network will involve the use of many different protocols. In general terms, a protocol defines header fields to describe each packet, a maximum length for the payload, and methods of processing information from the headers.\ntag: C1 Glossary
+
+protocol suite\nA collection of several protocols used for networking are designed to work together.\ntag: C1 Glossary
+
+proxy server\nA server that mediates the communications between a client and another server. The proxy server can filter and often modify communications as well as provide caching services to improve performance.\ntag: C1 Glossary
+
+PSTN\n(Public Switched Telephone Network) National telecommunications systems have evolved and combined over the years to create a global (and indeed extra-terrestrial) communications network This is referred to as the Public Switched Telephone Network (PSTN) but it is capable of carrying more than simply voice-call services. The basis of PSTN is a circuit-switched network, but the infrastructure can also carry packet-switched data services.\ntag: C1 Glossary
+
+PSU\n(Power Supply Unit) Transformer that converts AC mains power into 3.3 V, 5 V, and 12 V DC to power components on the motherboard. The type of PSU must match the case and motherboard form factor.\ntag: C1 Glossary
+
+PVR\n(personal video recorder) Software installed on a home theater PC (HTPC) to record and watch TV broadcasts.\ntag: C1 Glossary
+
+QC\n(Quick Charge) A Qualcomm fast charging technology that also has a second chip for power management that allows higher wattage than is allowed by the USB standard without overheating.\ntag: C1 Glossary
+
+QoS\n(Quality of Service) Systems that differentiate data passing over the network that can reserve bandwidth for particular applications. A system that cannot guarantee a level of available bandwidth is often described as Class of Service (CoS).\ntag: C1 Glossary
+
+QR codes\n(Quick Response codes) A 2D barcode created of black and white squares used to store information that can be read using a barcode scanner or the camera on a smartphone that has a barcode scanning app installed.\ntag: C1 Glossary
+
+Quick Response codes\nSee QR codes.\n(Quick Response codes) A 2D barcode created of black and white squares used to store information that can be read using a barcode scanner or the camera on a smartphone that has a barcode scanning app installed.\ntag: C1 Glossary
+
+radio firmware\nAn operating system that is separate from the end-user operating system in a mobile device.\ntag: C1 Glossary
+
+RADIUS\n(Remote Authentication Dial-in User Service) Used to manage remote and wireless authentication infrastructure. Users supply authentication information to RADIUS client devices, such as wireless access points. The client device then passes the authentication data to an AAA (Authentication, Authorization, and Accounting) server, which processes the request.\ntag: C1 Glossary
+
+RAID\n(Redundant Array of Independent/ Inexpensive Disks) A set of vendor- independent specifications for fault-tolerant configurations on multiple-disk systems.\ntag: C1 Glossary
+
+RAM\n(Random Access Memory) The principal storage space for computer data and program instructions. RAM is described as being volatile in the sense that once power has been removed or the computer has been rebooted, data is lost.\ntag: C1 Glossary
+
+range extender\nSee wireless range extender.\nDesigned to repeat the signal from an access point to extend the range of a WLAN.\ntag: C1 Glossary
+
+rapid elasticity\nThe ability to scale cloud computing resources quickly to meet peak demand and just as quickly remove resources if they are not currently needed.\ntag: C1 Glossary
+
+raster\nA bitmap image of a page for printing. See also Raster Image Processing.\ntag: C1 Glossary
+
+RAW\nWhen applied to a print job, RAW means the job is fully rendered and ready to be passed to the print device without further processing.\ntag: C1 Glossary
+
+RDPRA Mode\n(RDP Restricted Admin Mode) A method of mitigating the risk of using Remote Desktop.\ntag: C1 Glossary
+
+real time\nThe date and time that are maintained by the Real Time Clock.\ntag: C1 Glossary
+
+rear panel\nThe portion of the system case with cut- out slots aligned with the position of adapter card slots.\ntag: C1 Glossary
+
+refresh rate\nThe picture displayed on a CRT monitor is updated (by vertical refreshing) many times per second. The more times the image is refreshed, the more stable and flicker-free the picture. On flat panels, there is no flicker as each pixel is not redrawn but only updated. Flat panels can suffer from motion blur and ghosting, however, and better refresh rates can reduce these issues.\ntag: C1 Glossary
+
+register\nRegisters are temporary storage areas in the CPU that can hold data prior to processing by the Arithmetic Logic Unit (ALU) and other components of the processor. A CPU can incorporate a number of different registers, but the most important are the General Purpose (GP) registers.\ntag: C1 Glossary
+
+registration roller\nRoller equipped with a sensor that feeds paper into the print engine.\ntag: C1 Glossary
+
+relative distinguished name\nIn an LDAP directory, the most specific attribute in the distinguished name that uniquely identifies the object within the context of successive (parent) attribute values.\ntag: C1 Glossary
+
+Remote Assistance\nA Windows remote support feature allowing a user to invite a technical support professional to help them over a network using chat. The user can also grant the support professional control over their desktop. Remote Assistance uses the same RDP protocol as Remote Desktop.\ntag: C1 Glossary
+
+Remote Credential Guard\nA method of mitigating the risk of using Remote Desktop.\ntag: C1 Glossary
+
+Remote Desktop\nThe Windows feature that allows a remote user to initiate a connection at any time and sign on to the local machine using an authorized account.\ntag: C1 Glossary
+
+removable storage\nA storage device that can be removed from the computer, or the removable media that can be inserted in a drive, to store portable data.\ntag: C1 Glossary
+
+repeater\nA repeater is a layer 1 device that takes a signal and repeats it to the devices that are connected to it. Repeaters can be used to maintain signal integrity and amplitude across a connection or a network.\ntag: C1 Glossary
+
+reserve\nIn DHCP servers, particular IP addresses are set aside for and assigned to specific devices so that those devices receive the same IP address each time.\ntag: C1 Glossary
+
+RF\n(Radio Frequency) Radio waves propagate at different frequencies and wavelengths. Wi-Fi network products work at 2.4 GHz or 5 GHz.\ntag: C1 Glossary
+
+resistance\nResistance (R) describes the property of a material to prevent electrical flow through itself. Metals have little electrical resistance whereas plastics and rubber have very high resistance and in most cases will not allow electrical current to pass through them. The resistance of a body to electrical current is measured in Ohms (Ω or R) and is related to potential difference (V) and current (I) by the equation V=IR.\ntag: C1 Glossary
+
+RFID\n(Radio Frequency Identification) A chip allowing data to be read wirelessly. RFID tags are used in barcodes and smart cards.\ntag: C1 Glossary
+
+resistor\nA component that opposes the flow of current without blocking it completely and is used to manage electronic circuits.\ntag: C1 Glossary
+
+resolution\nA measure of the number of picture elements (pixels) that an imaging device can use to sample or display the image, measured in pixels per inch (ppi). On a digital printer, the resolution is the number of toner or ink dots that the print engine can put on paper (measured in dots per inch [dpi]). Note that sometimes dpi is used interchangeably with ppi to describe scanner or monitor resolution, but image pixels and printer dots are not equivalent, as multiple print dots are required to represent a single image pixel accurately.\ntag: C1 Glossary
+
+resolution (digital camera)\nThe number of megapixels a digital camera is capable of producing.\ntag: C1 Glossary
+
+resource pooling\nA cloud provider's data center hardware is not dedicated or reserved for a particular customer account, allowing the provider to provision more resources through management software rather than physically altering hardware to allocate or deallocate resources for a customer.\ntag: C1 Glossary
+
+response rate\nThe time taken for a pixel to change color, measured in milliseconds (ms).\ntag: C1 Glossary
+
+RFID tag\nA tag containing an RFID chip programmed with asset data.\ntag: C1 Glossary
+
+ribbon\nIn an impact printer, the inked medium against which pins press to create the image.\ntag: C1 Glossary
+
+RIP\n(Raster Image Processing) The component responsible for converting instructions in the Page Description Language (PDL) to instructions that control the print engine (an inkjet's ink dispersion nozzles or a laser printer's developer laser, for instance). A PDL might contain instructions for printing vector graphics and fonts; the RIP translates these instructions into a pattern of dots (raster) at the required resolution.\ntag: C1 Glossary
+
+riser card\nA space-saving feature of some motherboards, a riser card puts the PC's expansion slots on a separate board installed at right-angles to the main board. This allows the system components to fit within a slimline case.\ntag: C1 Glossary
+
+RJ connector\n(Registered Jack connector) A connector used for twisted pair cabling. 4-pair network cabling uses the larger RJ-45 connector. Modem/telephone 2-pair cabling uses the RJ-11 connector.\ntag: C1 Glossary
+
+RJ-11 connector\nA six-position connector that uses just one pair of wires. It is used in telephone system connections.\ntag: C1 Glossary
+
+RJ-45 connector\nAn eight-position connector that uses all four pairs of wires. It is usually used for network connectivity.\ntag: C1 Glossary
+
+rogue access point\nAn unauthorized wireless access point on a corporate or private network, which allows unauthorized individuals to connect to the network.\ntag: C1 Glossary
+
+rogue VM\n(rogue virtual machine) A virtual machine that has been installed without authorization.\ntag: C1 Glossary
+
+rooting\nGaining privileged level or root level access to an Android device to enable modifying code or installing software not intended for the device.\ntag: C1 Glossary
+
+rotational latency\nThe time it takes for the read/write head to find a sector location.\ntag: C1 Glossary
+
+router\nA network device that links dissimilar networks and can support multiple alternate paths between locations based upon the parameters of speed, traffic loads, and cost. A router works at layer 3 (Network) of the OSI model. Routers form the basic connections of the Internet. They allow data to take multiple paths to reach a destination (reducing the likelihood of transmission failure). Routers can access source and destination addresses within packets and can keep track of multiple active paths within a given source and destination network. TCP/IP routers on a LAN can also be used to divide the network into logical subnets.\ntag: C1 Glossary
+
+RS-232\nA serial port that uses a 25-pin male D connector. (See also serial port).\ntag: C1 Glossary
+
+RSSI\n(Received Signal Strength Indicator) For a wireless signal, an index level calculated from the signal strength level.\ntag: C1 Glossary
+
+RTC\n(real time clock) Part of the system chipset that keeps track of the date and time. The RTC is powered by a battery so the PC keeps track of the time even when it is powered down. If the computer starts losing time, it is a sign that the battery is failing.\ntag: C1 Glossary
+
+RTC battery\n(real time clock battery) The battery that powers the chipset that keeps track of date and time for the system.\ntag: C1 Glossary
+
+RTOS\n(real-time operating system) An OS that is optimized for use in embedded or real- time apps.\ntag: C1 Glossary
+
+RVI\n(Rapid Virtualization Indexing) The term used for SLAT extensions by AMD. S.M.A.R.T. (Self Monitoring Analysis and Reporting Technology) Technology designed to alert the user to possible hard disk failures before the disk becomes unusable.\ntag: C1 Glossary
+
+S/MIME\n(Secure Multipurpose Internet Mail Extensions) Email encryption standard (Cryptographic Message Standard) using PKI (X.509) certificates for confidentiality (digital envelopes) and integrity (digital signatures). S/MIME provides extensions for standard MIME headers.\ntag: C1 Glossary
+
+S/PDIF\n(Sony/Phillips Digital Interface) A high- quality audio port that uses coax cabling with RCA connectors or fiber optic cabling and connectors. S/PDIF supports surround sound speakers.\ntag: C1 Glossary
+
+SaaS\n(Software as a Service) A cloud computing service that enables a service provider to make applications available over the Internet.\ntag: C1 Glossary
+
+script file\nA text file containing commands or instructions that are performed by a program on the computer rather than by the computer itself.\ntag: C1 Glossary
+
+sample\nA sound pattern stored in a wave table. SCSI (Small Computer Systems Interface) A legacy expansion bus standard allowing for the connection of internal and external devices. SCSI 1 defines the original 8-bit bus with a transfer rate of 5 MBps. SCSI 2 features a 16-bit data bus implementation (Wide SCSI) and a faster transfer rate (Fast SCSI) while maintaining backward compatibility with most of the original devices. SCSI 3 introduces further data rate enhancements (Ultra SCSI) and a serial SCSI standard (Firewire). Each device on a SCSI bus must be allocated a unique ID. The bus must also be terminated at both ends.\ntag: C1 Glossary
+
+Samsung account\nAn account created for Samsung Android devices used to access the Samsung devices and related online services.\ntag: C1 Glossary
+
+SAS\n(Serial Attached SCSI) Developed from parallel SCSI, SAS represents the highest performing hard disk interface available.\ntag: C1 Glossary
+
+SATA\n(Serial ATA) The most widely used interface for hard disks on desktop and laptop computers. It uses a 7-pin data connector with one device per port. There are three SATA standards specifying bandwidths of 1.5 Gbps, 3 Gbps, and 6 Gbps, respectively. SATA drives also use a new 15-pin power connector, though adapters for the old style 4-pin Molex connectors are available. External drives are also supported via the eSATA interface.\ntag: C1 Glossary
+
+SC\n(Subscriber Connector) Push/pull connector used with fiber optic cabling.\ntag: C1 Glossary
+
+scalable fonts\nFonts that are vector based.\ntag: C1 Glossary
+
+scanner\nA type of photocopier that can convert the image of a physical object into an electronic data file. The two main components of a scanner are the lamp, which illuminates the object, and the recording device, an array of CCDs (Charge Coupled Devices). There are flatbed and sheet-fed versions, with sheet-fed versions typically being incorporated with a printer and fax machine into a multifunction device. Scanners can output images directly to a printer or to a suitable file format (such as JPEG, PNG, or TIFF). Scanners can also interface with applications software using one of several interfaces (TWAIN, WIA, SANE, or ISIS).\ntag: C1 Glossary
+
+SDK\n(Software Development Kit) A set of resources provided by a platform vendor for programmers to use when creating software to work with the vendor's platform.\ntag: C1 Glossary
+
+SDN\n(Software Defined Networking) Application Programming Interfaces (API) and compatible hardware allowing for programmable network appliances and systems.\ntag: C1 Glossary
+
+SDRAM\n(Synchronous Dynamic Random Access Memory) A variant on the DRAM chip designed to run at the speed of the system clock, thus accelerating the periodic refresh cycle times. SDRAM can run at much higher clock speeds than previous types of DRAM. Basic SDRAM is now obsolete and has been replaced by DDR/DDR2/3 SDRAM.\ntag: C1 Glossary
+
+sector\nThe regularly sized subdivision of a drive track. During low-level formatting, the size and position of the sectors is written to the disk so that the data can be placed into uniform spots that the drive head can easily access.\ntag: C1 Glossary
+
+secure boot\nA security system offered by UEFI that is designed to prevent a computer from being hijacked by malware.\ntag: C1 Glossary
+
+seek time\nThe time it takes for the read/write head to locate a particular track position.\ntag: C1 Glossary
+
+self-grounding\nManual dissipation of static buildup by touching a grounded object prior to touching any electronic equipment.\ntag: C1 Glossary
+
+semiconductor\nA material that can act as both a conductor and an insulator, which provides switch-like functionality, where a circuit can be opened and closed, used to represent binary (on/off) digits.\ntag: C1 Glossary
+
+separation pad\nA stationary pad in a paper tray that pushes the stack of paper back, allowing only a single sheet of paper to be fed into the printer.\ntag: C1 Glossary
+
+separation roller\nA roller in a paper tray that pushes the stack of paper back, allowing only a single sheet of paper to be fed into the printer.\ntag: C1 Glossary
+
+serial port\nAsynchronous serial transmission (RS-232) is one of the oldest PC bus standards. A serial port is a legacy port that can be used to connect devices such as modems, mice, and Uninterruptible Power Supplies (UPS). Serial ports transmit data bit-by-bit using a single data line at a speed of up to about 115 Kbps. Although the original serial port used a 25-pin male D connector, most PCs today use a male DB9 (9-pin) port. The serial port is now little used but does provide an "out-of-band" means of configuring network appliances such as switches and routers.\ntag: C1 Glossary
+
+server consolidation\nUsing virtual servers, make more efficient use of system resources and hardware since most servers' capacity is not fully utilized.\ntag: C1 Glossary
+
+server-side virtualization\nA solution in which one or more virtual servers are created on a physical server in which each virtual server acts like it was a separate computer.\ntag: C1 Glossary
+
+SFF\n(Small Form Factor) Motherboards and connectors that are designed to take up less space.\ntag: C1 Glossary
+
+sheet-fed scanner\nA scanner in which the paper is passed over a fixed scan head.\ntag: C1 Glossary
+
+sideload\nSee Android application package.\n(APK) Third-party or custom programs that are installed directly through an APK file, giving users and business the flexibility to install apps directly on Android devices.\ntag: C1 Glossary
+
+silicon chip\nA wafer of purified silicon doped with a metal oxide (typically copper or aluminum).\ntag: C1 Glossary
+
+SIM\n(Subscriber Identity Module) A small chip card that identifies the user and phone number of a mobile device via an International Mobile Subscriber Identity (ISMI). A SIM card also provides a limited amount of local storage for contacts.\ntag: C1 Glossary
+
+single-channel memory\nMemory with one 64-bit bus between the CPU and RAM.\ntag: C1 Glossary
+
+SLA\n(stereolithography) A 3D printing method which uses a resin or photopolymer to create objects which are cured using an ultraviolet laser.\ntag: C1 Glossary
+
+SLAT\n(Second Level Address Translation) A feature of virtualization software designed to improve the management of virtual (paged) memory.\ntag: C1 Glossary
+
+slicing\nCreating horizontal layers to use in 3D modeling and 3D printers.\ntag: C1 Glossary
+
+SLS\n(selective laser sintering) A 3D printing method which fuses layers together using a pulse laser, creating the object from a plastic or metal powder with the model being lowered into a tank as each layer is added.\ntag: C1 Glossary
+
+smart card\nA card with a chip containing data on it. Smart cards are typically used for authentication, with the chip storing authentication data such as a digital certificate. smart card reader A device, either built-in or attached as a peripheral, that uses a slot or NFC to interact with a smart card.\ntag: C1 Glossary
+
+SMB\n(Server Message Block) A protocol used for requesting files from Windows servers and delivering them to clients. SMB allows machines to share files and printers, thus making them available for other machines to use. SMB client software is available for UNIX-based systems. Samba software allows UNIX and Linux servers or NAS appliances to run SMB services for Windows clients.\ntag: C1 Glossary
+
+SMF\n(Single Mode Fiber) A category of fiber optic cable. SMF is more expensive than MMF (using high quality cable and optics) and supports much longer distances (up to about 70 km).\ntag: C1 Glossary
+
+SMP\n(symmetric multiprocessing) A condition where two or more physical CPUs that share a common OS and memory execute instructions simultaneously.\ntag: C1 Glossary
+
+SMT\n(Simultaneous Multithreading) Processing of multiple threads simultaneously.\ntag: C1 Glossary
+
+SMTP\n(Simple Mail Transfer Protocol) The protocol used to send mail between hosts on the Internet. Messages are sent over TCP port 25.\ntag: C1 Glossary
+
+SNMP\n(Simple Network Management Protocol) A protocol for monitoring and managing network devices. A management system collates data sent by agents running on each device. The agents maintain a Management Information Base of configuration and usage data. An agent can also generate a trap, alerting the management system of some notable event (such as a printer being out of paper). SNMP works over UDP ports 161 and 162 by default.\ntag: C1 Glossary
+
+Snort\nAn intrusion detection program.\ntag: C1 Glossary
+
+SNR\n(Signal-to-Noise Ratio) A sound measurement that is expressed in decibels that compares the signal power with the noise power.\ntag: C1 Glossary
+
+SODIMM\n(Small Outline Dual In-line Memory Module) Memory that is half the size of DIMMs, are available in 32- or 64-bit data paths, and are commonly found in laptops and iMac systems.\ntag: C1 Glossary
+
+soft reset\nPower cycling a mobile device in an attempt to resolve issues the user is experiencing.\ntag: C1 Glossary
+
+SOHO network\n(small office/home office network) A small network that provides connectivity and resource sharing for a small office or home office.\ntag: C1 Glossary
+
+solid state storage\nAny type of persistent digital storage technology that does not use mechanical parts.\ntag: C1 Glossary
+
+sound card\nAn add-on card or built-in adapter to process audio signals and provide interfaces for connecting audio devices.\ntag: C1 Glossary
+
+SSD\n(solid state drive) A personal computer storage device that stores data in non-volatile special memory instead of on disks or tape.\ntag: C1 Glossary
+
+SSH\n(Secure Shell) A remote administration and file copy program that is flexible enough to support VPNs too (using port forwarding). SSH runs on TCP port 22.\ntag: C1 Glossary
+
+SSID\n(Service Set ID) Identifies a particular Wireless LAN (WLAN). This "network name" can be used to connect to the correct network. When multiple APs are configured with the same SSID, this is referred to as an E(xtended)SSID.\ntag: C1 Glossary
+
+SSL\n(Secure Sockets Layer) A security protocol developed by Netscape to provide privacy and authentication over the Internet. It is application independent (working at layer 5 [Session]) and can be used with a variety of protocols, such as HTTP or FTP. Client and server set up a secure connection through PKI (X.509) certificates (optionally, both client and server can authenticate to one another). The protocol is now being developed as Transport Layer Security (TLS).\ntag: C1 Glossary
+
+SSO\n(Single Sign-on) Any authentication technology that allows a user to authenticate once and receive authorizations for multiple services. Kerberos is a typical example of an authentication technology providing SSO.\ntag: C1 Glossary
+
+SSTP\n(Secure Socket Tunneling Protocol) Uses the HTTP over SSL protocol and encapsulates an IP packet with an SSTP header.\ntag: C1 Glossary
+
+ST Connector\n(Straight Tip connector) Bayonet-style twist-and-lock connector for fiber optic cabling.\ntag: C1 Glossary
+
+standard client\nA business computer that performs most or all computing functions on its own. Also referred to as a thick client or a fat client.\ntag: C1 Glossary
+
+standoffs\nUsed to firmly attach the motherboard to the case, ensuring no other part of the motherboard touches the case.\ntag: C1 Glossary
+
+static eliminator\nSee detac corona.\nA strip that removes the charge to prevent paper curl in a laser printer.\ntag: C1 Glossary
+
+storage bus\nA special type of expansion bus dedicated to communicating with storage devices.\ntag: C1 Glossary
+
+STP\n(Shielded Twisted Pair cabling) A type of network cabling used where protection from interference is required. Insulation is installed around all four pairs of twisted cables.\ntag: C1 Glossary
+
+structured cabling system\nThe use of patch cords, permanent links, and patch panels.\ntag: C1 Glossary
+
+subnet mask\nAn IP address consists of a Network ID and a Host ID. The subnet mask is used in IPv4 to distinguish these two components within a single IP address. The typical format for a mask is 255.255.0.0. Classless network addresses can also be expressed in the format 169.254.0.0/16, where /16 is the number of bits in the mask. IPv6 uses the same /nn notation to indicate the length of the network prefix.\ntag: C1 Glossary
+
+subtractive color printing\nA color printing method that uses the reflective properties of inks. superpipelining Superscalar architectures feature longer pipelines with multiple stages but shorter actions (micro-ops) at each stage. superscalar architecture CPUs process multiple instructions at the same time (for example, while one instruction is fetched, another is being decoded, another is being executed, and another is being written back to memory).\ntag: C1 Glossary
+
+Suricata\nAn intrusion detection program.\ntag: C1 Glossary
+
+surround sound\nPlacement of multiple speakers positioned around the listener to provide a cinematic audio experience.\ntag: C1 Glossary
+
+SVGA\n(Super VGA) A variant of the VGA standard that supported 800x600 pixel resolution with 4-bit or 8-bit color.\ntag: C1 Glossary
+
+Swift\nApple's programming language for developing mobile apps.\ntag: C1 Glossary
+
+switch\nEthernet switches are at the heart of most local networks. A switch receives incoming data into a buffer, then the destination MAC address is compared with an address table. The data is then only sent out to the port with the corresponding MAC address. In a switched network, each port is in a separate collision domain (microsegmentation). Advanced switches perform routing at layers 3 (IP), 4 (TCP), or 7 (Application). Switches routing at layer 4/7 are referred to as load balancers and content switches.\ntag: C1 Glossary
+
+syslog\nUsed in UNIX and Linux, log files that allow for centralized collection of events from multiple sources.\ntag: C1 Glossary
+
+system board\nSee motherboard.\nThe computer motherboard, also called the system board, provides the basic foundation for all of the computer's hardware, including the processor, RAM, firmware, and expansion cards. Several motherboard standards are available, each with a different layout and associated advantages.\ntag: C1 Glossary
+
+system case\nA plastic and metal box that houses components such as the motherboard, Central Processing Unit (CPU), memory, adapter cards, disk drives, and power supply unit. System units are also often referred to as boxes, main units, or base units.\ntag: C1 Glossary
+
+system clock\nThe computer's timing mechanism that synchronizes the operation of all parts of the computer and provides the basic timing signal for the CPU; measured in MHz or GHz.\ntag: C1 Glossary
+
+system firmware\nLow-level code to allow the computer components to be initialized and load the main operating system software.\ntag: C1 Glossary
+
+system memory\nThe main storage area for programs and data when the computer is running.\ntag: C1 Glossary
+
+system resources\nSettings that enable a device to communicate with the CPU and memory without the device conflicting with other devices.\ntag: C1 Glossary
+
+T568A\nA legacy twisted pair standard that was used in commercial buildings and cabling systems that support data networks, voice, and video. It further defines cable performance and technical requirements.\ntag: C1 Glossary
+
+T568B\nA twisted pair standard that defines the standards for preferred cable types that provide the minimum acceptable performance levels for home-based networks.\ntag: C1 Glossary
+
+TA\n(Terminal Adapter) An external appliance or a plug-in card for a PC or compatible router that facilitates an ISDN connection.\ntag: C1 Glossary
+
+TB\n(Thunderbolt) It can be used as a display interface (like DisplayPort) and as a general peripheral interface (like USB 3). The latest version uses USB-C connectors.\ntag: C1 Glossary
+
+TCO\n(total cost of ownership) The cost of a device over its lifetime, including the cost of replacement components and consumables.\ntag: C1 Glossary
+
+TCP\n(Transmission Control Protocol) A protocol in the TCP/IP suite operating at the transport layer to provide connection-oriented, guaranteed delivery of packets. Hosts establish a session to exchange data and confirm delivery of packets using acknowledgements. This overhead means the system is relatively slow.\ntag: C1 Glossary
+
+TCP/IP Suite\n(Transmission Control Protocol/Internet Protocol suite) The network protocol suite used by most operating systems and the Internet. It is widely adopted, industry standard, vendor independent, and open. It uses a 4-layer network model that corresponds roughly to the OSI model as follows: Network Interface (Physical/Data Link), Internet (Network), Transport (Transport), Application (Session, Presentation, Application).\ntag: C1 Glossary
+
+telnet\nTCP/IP application protocol supporting remote command-line administration of a host (terminal emulation). Telnet is unauthenticated and has therefore been superseded by SSH or graphical remote configuration utilities. Telnet runs over TCP port 23.\ntag: C1 Glossary
+
+tethered VR headset\n(tethered Virtual Reality headset) A self-contained VR device.\ntag: C1 Glossary
+
+tethering\nUsing the cellular data plan of a mobile device to provide Internet access to a laptop or PC. The PC can be tethered to the mobile by USB, Bluetooth, or Wi-Fi (a mobile hotspot).\ntag: C1 Glossary
+
+TFT Active Matrix Display\n(Thin Film Transistor active matrix display) The TFT display provides the best resolution of all of the currently available flat-panel Liquid Crystal Display (LCD) designs, although they are also the most expensive. TFT displays offer very high image clarity, contrast ratios of between 150:1 to 200:1, fast refresh rates, and wide viewing angles.\ntag: C1 Glossary
+
+THD\n(Total Harmonic Distortion) A sound measurement that is expressed as a percentage that compares input and output audio signals, which indicates the amount of distortion in the output signal. thermal dye transfer printer A sophisticated type of color printer that uses heat to diffuse dye from color ribbons onto special paper or transparency blanks to produce continuous-tone output similar in quality to a photographic print. Also called dye sublimation printer.\ntag: C1 Glossary
+
+thermal inkjet print method\nInk delivery system in an inkjet printer that uses thermal shock.\ntag: C1 Glossary
+
+thermal paper\nPaper that contains a chemical designed to react with the heating element of a thermal printer to create images on paper.\ntag: C1 Glossary
+
+thermal paste\nA paste that is used to connect a heat sink to a CPU to provide a liquid thermally conductive compound gel that fills any gaps between the CPU and the heat sink to permit a more efficient transference of heat from the processor to the heat sink.\ntag: C1 Glossary
+
+thermal printer\nA type of printer that uses a thermal (high heat) print head to fuse or transfer wax-based ink onto paper or selectively heats specially treated paper to form the image. Most thermal printers are handheld devices used for printing labels or receipts.\ntag: C1 Glossary
+
+thermal shock\nAn ink delivery system where the ink is heated to form a bubble that bursts through the nozzles.\ntag: C1 Glossary
+
+thermal wax transfer printer\nA printer that uses a thermal printhead to melt wax-based ink from a transfer ribbon onto the paper.\ntag: C1 Glossary
+
+thick client\nA business computer that performs most or all computing functions on its own. Also referred to as a standard client or a fat client.\ntag: C1 Glossary
+
+thin client\nA business computer that relies heavily on another system, typically a server, to run most of its programs, processes, and services.\ntag: C1 Glossary
+
+thrashed\nSee disk thrashing.\nA state in which the main memory is filled up, pages are swapped in and out of virtual memory—which needs to be written to the hard disk—in rapid succession, leading to possible early drive failure.\ntag: C1 Glossary
+
+thread\nA stream of instructions generated by a software application. Most applications run a single process in a single thread.\ntag: C1 Glossary
+
+throttling\nTechnology that allows the CPU to slow down if thermal output reaches a critical level or to improve power performance. Intel's throttling technology is called SpeedStep; AMD's is called PowerNow!.\ntag: C1 Glossary
+
+TKIP\n(Temporal Key Integrity Protocol) Mechanism used in the first version of WPA to improve the security of wireless encryption mechanisms, compared to the flawed WEP standard.\ntag: C1 Glossary
+
+TLS\n(Transport Layer Security) A security protocol that protects sensitive communication from eavesdropping and tampering by using a secure, encrypted, and authenticated channel over a TCP/IP connection.\ntag: C1 Glossary
+
+TN\n(Twisted Nematic) An LCD panel technology where the panel is black when no electric current is running through the liquid crystal cells because the cells align themselves in a twisted state. When an electric current is applied, the liquid crystal cells untwist, allowing light to pass through, resulting in a white display screen.\ntag: C1 Glossary
+
+tone generator and probe\nThe tone generator is an electronic device that sends an electrical signal through one set of UTP cables. The tone probe (or tone locator) is an electronic device that emits an audible tone when it detects a signal sent by the tone generator in a set of wires.\ntag: C1 Glossary
+
+toner\nSpecially formulated compound to impart dye to paper through an electrographic process (used by laser printers and photocopiers). The key properties of toner are the colorant (dye), ability to fuse (wax or plastic), and ability to hold a charge. There are three main types of toner, distinguished by the mechanism of applying the toner to the developer roller: dual component (where the toner is mixed with a separate magnetic developer), mono-component (where the toner itself is magnetic), and non-magnetic mono-component (where the toner is transferred using static properties).\ntag: C1 Glossary
+
+Top Level Domains\n(TLD) In the DNS hierarchy, the level immediately below the root.\ntag: C1 Glossary
+
+touchpad\nInput device used on most laptops to replace the mouse. The touchpad allows the user to control the cursor by moving a finger over the pad's surface. There are usually buttons too but the pad may also recognize "tap" events and have scroll areas.\ntag: C1 Glossary
+
+touchscreen\nA display screen combined with a digitizer that is responsive to touch input.\ntag: C1 Glossary
+
+tower case\nA desktop computer designed to sit vertically on a surface so that it is taller than it is wide. Tower cases come in four basic sizes: full, mid, mini, and slim line.\ntag: C1 Glossary
+
+TPM\n(Trusted Platform Module) A specification for hardware-based storage of digital certificates, keys, hashed passwords, and other user and platform identification information. Essentially, it functions as a smart card embedded on a motherboard.\ntag: C1 Glossary
+
+traces\nWires etched on to the motherboard to provide electrical pathways.\ntag: C1 Glossary
+
+track\nWhen data is written onto a drive, it is stored as magnetic changes in the structure of the disk. These alterations are written as concentric rings as the disk spins. Each of these rings is termed a track.\ntag: C1 Glossary
+
+tractor feed\nAn impact printer mechanism that uses pairs of wheels with pins evenly spaced around the circumference at a set spacing to feed continuous roll paper with matching holes that fit over the pins.\ntag: C1 Glossary
+
+transfer belt\nIn a color printer, combining colors to print in one pass.\ntag: C1 Glossary
+
+transfer roller\nSee transfer unit.\nRoller, corona wire, or belt assembly that applies a charge to the media (paper) so that it attracts toner from the photoconductor. A detac strip then removes the charge to prevent paper curl. On a color laser printer, the transfer unit is usually a belt.\ntag: C1 Glossary
+
+transfer unit\nRoller, corona wire, or belt assembly that applies a charge to the media (paper) so that it attracts toner from the photoconductor. A detac strip then removes the charge to prevent paper curl. On a color laser printer, the transfer unit is usually a belt.\ntag: C1 Glossary
+
+transistor\nIn computers, semiconductor switches used to create logic devices.\ntag: C1 Glossary
+
+trickle charge\nCharging a device that has been fully charged at the rate at which the charge discharges, keeping the device fully charged without overcharging the battery.\ntag: C1 Glossary
+
+trip hazard\nAny object placed in pathways where people walk.\ntag: C1 Glossary
+
+tunneling\nA tunneling (or encapsulation) protocol wraps up data from one protocol for transfer over a different type of network. For example, PPP can carry TCP/IP data over a dial-up line, enabling a remote computer to communicate with the LAN.\ntag: C1 Glossary
+
+TWAIN\nStandard "driver" model for interfacing scanner hardware with applications software.\ntag: C1 Glossary
+
+Type 1 hypervisor\nA bare metal hypervisor in which you install directly on the server's hardware.\ntag: C1 Glossary
+
+Type 2 hypervisor\nA host-based hypervisor in which you install the host operating system first, then install the hypervisor.\ntag: C1 Glossary
+
+UDP\n(User Datagram Protocol) A protocol in the TCP/IP suite operating at the transport layer to provide connectionless, non-guaranteed communication with no sequencing or flow control. Faster than TCP, but does not provide reliability.\ntag: C1 Glossary
+
+UEFI\n(Unified Extensible Firmware Interface) A type of system firmware providing support for 64-bit CPU operation at boot, full GUI and mouse operation at boot, and better boot security.\ntag: C1 Glossary
+
+UEFI setup\n(Unified Extensible Firmware Interface setup) Another name for the setup program used to configure system firmware settings. Also known as BIOS setup.\ntag: C1 Glossary
+
+unauthorized account access\nWhen someone other than an authorized user gains access to an online account.\ntag: C1 Glossary
+
+uncollated\nA print job where all copies of page 1 are printed first, followed by all copies of page 2, and so on.\ntag: C1 Glossary
+
+unicast addressing\nA packet addressed to a single host. If the host is not on the local subnet, the packet must be sent via one or more routers.\ntag: C1 Glossary
+
+unmanaged_switch\nPerforms microsegmentation without requiring any sort of configuration.\ntag: C1 Glossary
+
+UPnP\n(Universal Plug-and-Play) A protocol framework allowing network devices to autoconfigure services, such as allowing a games console to request appropriate settings from a firewall.\ntag: C1 Glossary
+
+URL\n(Uniform Resource Locator/Identifier) An application-level addressing scheme for TCP/IP, allowing for human-readable resource addressing. For example: protocol://server/file, where "protocol" is the type of resource (HTTP, FTP), "server" is the name of the computer (www.microsoft.com), and "file" is the name of the resource you wish to access.\ntag: C1 Glossary
+
+USB\n(Universal Serial Bus) The main type of connection interface used on PCs. A larger Type A connector attaches to a port on the host; Type B and Mini- or Micro-Type B connectors are used for devices. USB 1.1 supports 12 Mbps while USB 2.0 supports 480 Mbps and is backward compatible with 1.1 devices (which run at the slower speed). USB devices are hot swappable. A device can draw up to 2.5 W of power. USB 3.0 and 3.1 define 5 Gbps (SuperSpeed) and 10 Gbps (SuperSpeed+) rates and can deliver 4.5 W of power.\ntag: C1 Glossary
+
+USB 2.0 (HighSpeed) standard\nA USB standard that operates at up to 480 Mbps.\ntag: C1 Glossary
+
+USB hub\nA device that connects to a USB port to allow additional USB devices to be connected to the PC, essentially increasing the number of USB ports available.\ntag: C1 Glossary
+
+USB On the Go (OTG)\nA USB standard that allows a port to function as either a host or as a device.\ntag: C1 Glossary
+
+USB SuperSpeed\nThe USB 3.0 standard that operates at up to 5 Gbps and makes the link full duplex.\ntag: C1 Glossary
+
+USB SuperSpeed+\nThe USB 3.1 standard that operates at up to 10 Gbps.\ntag: C1 Glossary
+
+UTM\n(Unified Threat Management) All-in-one security appliances and technologies that combine the functions of a firewall, malware scanner, intrusion detection, vulnerability scanner, Data Loss Prevention, content filtering, and so on.\ntag: C1 Glossary
+
+UTP\n(Unshielded Twisted Pair cabling) The type of cabling typically used for computer networking, composed of eight insulated copper wires grouped into four pairs with each pair twisted to reduce interference between wires.\ntag: C1 Glossary
+
+vCard\nThe digital equivalent of a business card.\ntag: C1 Glossary
+
+VDE\n(Virtual Desktop Environment) A virtual environment in which users can customize and update the environment as if it was a physical environment.\ntag: C1 Glossary
+
+VDI\n(Virtual Desktop Infrastructure) Hosting user desktops as virtual machines on a centralized server or cloud infrastructure. The desktop OS plus applications software is delivered to the client device (often a thin client) over the network as an image.\ntag: C1 Glossary
+
+VDSL\n(Very High Bitrate DSL) A high speed version of DSL with an upstream rate between 1.5 Mbps and 2.5 Mbps and a downstream rate between 50 Mbps and 55 Mbps.\ntag: C1 Glossary
+
+vector font\nA font that consists of a description of how each character should be drawn that can be scaled up or down to different font sizes.\ntag: C1 Glossary
+
+vector graphics\nScalable images that are created from vectors which describe how a line should be drawn.\ntag: C1 Glossary
+
+VGA\n(Video Graphics Array). A standard for the resolution and color depth of computer displays. VGA specifies a resolution of 640x480 with 16 colors (4-bit color) at 60 Hz.\ntag: C1 Glossary
+
+VGA Connector\n(Video Graphics Array connector) A 15-pin HD connector has been used to connect the graphics adapter to a monitor since 1987. The use of digital flat-panel displays rather than CRTs means that as an analog connector, it is fast becoming obsolete.\ntag: C1 Glossary
+
+video card\nProvides the interface between the graphics components of the computer and the display device. A number of connectors may be provided for the display, including VGA, DVI, and HDMI. Most adapters come with their own processor (Graphics Processing Unit [GPU]) and onboard memory. video projector A large format display in which the image is projected onto a screen or wall using a lens system.\ntag: C1 Glossary
+
+virtual application streaming\nJust enough of an application is installed on the end user device for the system to recognize that the application is available to the user, and when the user accesses the application, additional portions of the code are downloaded to the device.\ntag: C1 Glossary
+
+virtual assistant\nAnother term for a digital assistant.\ntag: C1 Glossary
+
+virtual memory\nAn area on the hard disk allocated to contain pages of memory. When the operating system doesn't have sufficient physical memory (RAM) to perform a task, pages of memory are swapped to the paging file. This frees physical RAM to enable the task to be completed. When the paged RAM is needed again, it is re-read into memory.\ntag: C1 Glossary
+
+virtual switch\nA software application that enables communication between VMs.\ntag: C1 Glossary
+
+virtualization\nSoftware allowing a single computer (the host) to run multiple "guest" operating systems (or Virtual Machines [VMs]). The VMs are configured via a hypervisor or VM Monitor (VMM). VMs can be connected using virtual networks (vSwitch) or leverage the host's network interface(s). It is also possible for the VMs to share data with the host (via shared folders or the clipboard, for instance). VT is now used as major infrastructure in data centers as well as for testing and training. \ntag: C1 Glossary
+
+VLAN\n(Virtual LAN) A logically separate network, created using switching technology. Even though hosts on two VLANs may be physically connected to the same cabling, local traffic is isolated to each VLAN so they must use a router to communicate.\ntag: C1 Glossary
+
+VM\n(Virtual Machine) A guest operating system installed on a host computer using virtualization software (a hypervisor), such as Microsoft Hyper-V or VMware.\ntag: C1 Glossary
+
+VM escaping\n(virtual machine escaping) Malware running on a guest OS jumping to another guest or to the host.\ntag: C1 Glossary
+
+VM sprawl\n(virtual machine sprawl) The uncontrolled development of more and more virtual machines.\ntag: C1 Glossary
+
+VNC\n(Virtual Network Computing) Remote access tool and protocol. VNC is the basis of macOS screen sharing.\ntag: C1 Glossary
+
+volatile\nA type of memory where data cannot be stored without power being supplied.\ntag: C1 Glossary
+
+voltage\nThe potential difference between two points (often likened to pressure in a water pipe) measured in Volts (V). In the US, grid power is 114-126 VAC. In Europe, grid power is referred to as mains electricity and is supplied at 220-240 VAC.\ntag: C1 Glossary
+
+voltage regulators\nVoltage Regulator Modules ensure that the motherboard delivers the voltage required by the CPU. When CPUs changed from 5 V to 3.3 V operation, VRMs were provided as plug-in modules. Most modern CPUs use around 1.5 - 2 V and the voltage regulators are built into the motherboard.\ntag: C1 Glossary
+
+VPN\n(Virtual Private Network) A secure tunnel created between two endpoints connected via an unsecure network (typically the Internet). VPNs are typically created using SSL/TLS or IPsec. Encryption software is used to ensure privacy of data as messages transit through the public network.\ntag: C1 Glossary
+
+VR\n(Virtual Reality) A computer-generated, simulated environment experienced via a headset connected to a PC or powered by a smartphone.\ntag: C1 Glossary
+
+VR headset\n(Virtual Reality headset) A headset worn like goggles to interact with images displayed in the headset.\ntag: C1 Glossary
+
+VSAT\n(Very Small Aperture Terminal) A microwave antenna aligned to an orbital satellite that can either relay signals between sites directly or via another satellite.\ntag: C1 Glossary
+
+VT-x\nExtensions in Intel-based systems that allow hardware virtualization.\ntag: C1 Glossary
+
+walled garden\nA closed software system in which the user's access to content and services is controlled by the user's mobile carrier or by a service provider.\ntag: C1 Glossary
+
+WAN\n(Wide Area Network) A network that spans multiple geographic locations.\ntag: C1 Glossary
+
+wear leveling\nRoutines used by flash drives to prevent any single storage location from being overused and to optimize the life of the device.\ntag: C1 Glossary
+
+web server\nHTTP servers host websites. A basic website consists of static HTML pages but many sites are developed as front-end applications for databases. Web servers are popular targets for attack, particularly DoS, spoofing, and software exploits. Many companies use hosted web servers but if not, the server should be located in a DMZ. Web servers are also commonly used for intranet services, especially on Microsoft networks.\ntag: C1 Glossary
+
+webcam\nA webcam can be used to stream and record video. There are many types, from devices built into laptops to standalone units. While early devices were only capable of low resolutions, most webcams are now HD-capable.\ntag: C1 Glossary
+
+WEP\n(Wired Equivalent Privacy) A mechanism for encrypting data sent over a wireless connection. WEP is considered flawed (that is, a determined and well-resourced attack could probably break the encryption). Apart from problems with the cipher, the use and distribution of a pre-shared key (effectively a password) depends on good user practice. WEP has been replaced by WPA.\ntag: C1 Glossary
+
+whitelisting\nAn address added to the white list is permitted to connect to any port.\ntag: C1 Glossary
+
+Wi-Fi\nIEEE standard for wireless networking based on spread spectrum radio transmission in the 2.4 GHz and 5 GHz bands. The standard has five main iterations (a, b, g, n, and ac), describing different modulation techniques, supported distances, and data rates.\ntag: C1 Glossary
+
+Wi-Fi analyzer\nA Wi-Fi spectrum analyzer used to detect devices and points of interference, as well as analyze and troubleshoot network issues on a WLAN or other wireless networks.\ntag: C1 Glossary
+
+Wi-Fi Direct\nTechnology that enables two mobile devices to connect to each other without a wireless access point.\ntag: C1 Glossary
+
+WIA\n(Windows Image Acquisition) Driver model and API (Application Programming Interface) for interfacing scanner hardware with applications software on Windows PCs.\ntag: C1 Glossary
+
+Wireless Range Extender\nDesigned to repeat the signal from an access point to extend the range of a WLAN.\ntag: C1 Glossary
+
+WISP\n(Wireless Internet Service Provider) An ISP offering Internet access over ground-based Line of Sight (LoS) microwave transmitters.\ntag: C1 Glossary
+
+WMN\n(Wireless Mesh Network) Wireless network topology where all nodes—including client stations—are capable of providing forwarding and path discovery. This improves coverage and throughput compared to using just fixed access points and extenders.\ntag: C1 Glossary
+
+WoL\n(Wake on LAN) Where a host has a compatible network card, a network server can be configured to transmit a "magic packet" that causes the host to power up.\ntag: C1 Glossary
+
+workstation\nClient devices connecting to the network represent one of the most vulnerable points as they are usually harder to monitor than centrally located equipment, such as servers and switches. As well as secure configuration of the OS and applications, workstations should be protected with anti-malware software. Users should be trained in security best practices and educated about common threats.\ntag: C1 Glossary
+
+WoWLAN\n(Wake-on-Wireless LAN) A wireless version of WoL that is not widely implemented.\ntag: C1 Glossary
+
+WPA\n(Wi-Fi Protected Access) An improved encryption scheme for protecting Wi-Fi communications, designed to replace WEP. The original version of WPA was subsequently updated (to WPA2) following the completion of the 802.11i security standard. WPA features an improved method of key distribution and authentication for enterprise networks, though the pre-shared key method is still available for home and small office networks. WPA2 uses the improved AES cipher, replacing TKIP and RC4.\ntag: C1 Glossary
+
+WPF\n(Windows Presentation Foundation) In Windows, handles the display and print functions for compatible applications.\ntag: C1 Glossary
+
+WPS\n(Wi-Fi Protected Setup) Mechanism for auto-configuring a WLAN securely for home users. On compatible equipment, users just have to push a button on the access point and connecting adapters to associate them securely.\ntag: C1 Glossary
+
+WWAN\n(Wireless Wide Area Network) A large wireless network, such as a cellular data network or line-of-sight microwave transmission.\ntag: C1 Glossary
+
+WYSIWYG\n(What You See Is What You Get) The screen and print output are supposed to be the same.\ntag: C1 Glossary
+
+x64\nSee x86-64.\nAnother term for the AMD64 instruction set.\ntag: C1 Glossary
+
+x86-32\nThe instruction set used by IBM PC compatible CPUs.\ntag: C1 Glossary
+
+x86-64\nAnother term for the AMD64 instruction set.\ntag: C1 Glossary
+
+Xcode\nApple's SDK for macOS and iOS software development.\ntag: C1 Glossary
+
+XML\n(eXtensible Markup Language) A system for structuring documents so that they are human- and machine-readable. Information within the document is placed within tags, which describe how information within the document is structured.\ntag: C1 Glossary
+
+XPS\n(XML Print Specification) A file format based on XML that describes one or more pages and how the information should appear on the page.\ntag: C1 Glossary
+
+Z-Wave\nLow-power wireless communications protocol used primarily for home automation. Z-Wave uses radio frequencies in the high 800 to low 900 MHz range and a mesh topology.\ntag: C1 Glossary
+
+ZIF socket\n(Zero Insertion Force socket) A processor socket type allowing the chip to be placed in the socket with as little risk of damaging the pins on the processor chip as possible.\ntag: C1 Glossary
+
+Zigbee\nLow-power wireless communications open source protocol used primarily for home automation. Zigbee uses radio frequencies in the 2.4 GHz band and a mesh topology.\ntag: C1 Glossary
