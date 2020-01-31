@@ -21,9 +21,11 @@
 4. Install dependencies (Flask, SocketIO)
 
     `pip install Flask`
-    
+
     `pip install flask_socketio`
 
 # Usage
 
 `python3 ./server.py`
+
+Navigate to `http://127.0.0.1:5000`
