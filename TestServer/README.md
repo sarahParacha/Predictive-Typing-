@@ -26,6 +26,6 @@
 
 # Usage
 
-`python3 ./server.py`
+`python ./server.py`
 
 Navigate to `http://127.0.0.1:5000`
