@@ -13,15 +13,16 @@
 3. Activate the environment
 
     #### Linux:
-    . venv/bin/activate
+    `. venv/bin/activate`
 
     #### Windows:
-    venv\Scripts\activate
+    `venv\Scripts\activate`
 
 4. Install dependencies (Flask, SocketIO)
 
-`pip install Flask`
-`pip install flask_socketio`
+    `pip install Flask`
+    
+    `pip install flask_socketio`
 
 # Usage
 
