@@ -4,18 +4,18 @@
 
 2. Setup Python3 environment:
 
-## Linux
+##### Linux:
 `python3 -m venv venv`
 
-## Windows
+##### Windows:
 `py -3 -m venv venv`
 
 3. Activate the environment
 
-## Linux
+##### Linux:
 . venv/bin/activate
 
-## Windows
+##### Windows:
 venv\Scripts\activate
 
 4. Install dependencies (Flask, SocketIO)
