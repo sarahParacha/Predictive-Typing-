@@ -6,6 +6,7 @@ print(s)
 tokenized = s.split()
 Trigrams = ngrams(tokenized,3)
 listOfTrigrams = list(Trigrams)
+# printing only 10 ngrams
 print(listOfTrigrams[:10])
 print(len(listOfTrigrams))
 
