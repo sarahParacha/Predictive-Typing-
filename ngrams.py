@@ -56,5 +56,3 @@ for bucket in buckets:
     buckets[bucket] = OrderedDict(sorted(buckets[bucket].items(), key=lambda x: x[1], reverse=True))
     # Insert or replace mongo document
     db.buckets.replace_one({'_id': bucket}, buckets[bucket], upsert=True)
-
-pprint(buckets)
