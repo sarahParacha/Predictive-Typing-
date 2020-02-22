@@ -54,8 +54,7 @@ for word in words:
 for bucket in buckets:
     # Sort bucket
     buckets[bucket] = OrderedDict(sorted(buckets[bucket].items(), key=lambda x: x[1], reverse=True))
-    # Set mongo item _id
-    buckets[bucket]['_id'] = bucket
+    # Insert or replace mongo document
     db.buckets.replace_one({'_id': bucket}, buckets[bucket], upsert=True)
 
 pprint(buckets)
