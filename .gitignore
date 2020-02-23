@@ -2,3 +2,5 @@ TestServer/__pycache__/
 venv/
 .venv/
 .vscode/settings.json
+launch.json
+settings.json

@@ -4,10 +4,9 @@
 #following command needs to be run: pip3 install nltk (for Python 3).
 #Website Resource: http://www.albertauyeung.com/post/generating-ngrams-python/
 #----------------------------------------------------------------------------
-import re, string, collections
+import re, string, collections, pymongo, getpass, urllib.parse
 from collections import OrderedDict
 from pprint import pprint
-from pymongo import MongoClient
 from nltk.util import ngrams 
 
 testFilePath = "Test Data/gettysburg.txt"
@@ -35,8 +34,20 @@ listOfTrigrams = list(Trigrams)
 print(listOfTrigrams[:10])
 print(len(listOfTrigrams))
 
-print("Inserting trigrams to MongoDB@localhost")
-mongoClient = MongoClient("localhost")
+# if input("Connect to remote mongo server? y/n: ") == "y":
+#     mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
+#     mongoUser = input("Enter mongoDB username: ")
+#     mongoPass = getpass.getpass("Enter mongoDB password: ")
+#     mongoUrl = "mongodb://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
+#     print("Inserting trigrams into MongoDB on " + mongoBaseUrl)
+# else:
+#     mongoUrl = "localhost"
+#     print("Inserting trigrams into MongoDB on " + mongoUrl)
+
+mongoUrl = "localhost"
+print("Inserting trigrams into MongoDB on " + mongoUrl)
+
+mongoClient = pymongo.MongoClient(mongoUrl)
 db = mongoClient.ngrams
 
 buckets = {'a': {}, 'b': {}, 'c': {}, 'd': {}, 'e': {}, 'f': {}, 'g': {}, 'h': {}, 'i': {}, 'j': {}, 'k': {}, 'l': {}, 'm': {},
