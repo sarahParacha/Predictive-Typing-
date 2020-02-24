@@ -6,7 +6,9 @@
 <body>
     <div style="margin:auto;width:50%">
     <h1 style="position:relative;text-align:center">Search</h1>
-    <input style="display:block;margin:auto;width:100%" type="text" size="100">
+    <input style="display:block;margin:auto;width:100%" type="text" size="100" list="predictions">
+    <datalist id="predictions">
+    </datalist>
     </div>
 </body>
     {# Load socketIO #}
@@ -18,9 +20,23 @@
         input.oninput = handleInput;
         let socket = io();
 
+        function predictionRecv(predictions){
+            console.log(predictions)
+            if (predictions){
+            let newList = document.createElement('datalist')
+            newList.setAttribute("id", "predictions")
+            for (prediction of predictions){
+                let option = document.createElement('option')
+                option.value = prediction
+                newList.appendChild(option)
+            }
+            let datalist = document.getElementById('predictions');
+            datalist.replaceWith(newList)
+            }
+        }
+
         function handleInput(e) {
-            socket.emit('textInput', {data: e.target.value});
-            //console.log(e.target.value)
+            socket.emit('textInput', {data: e.target.value}, predictionRecv);
         }
     </script>
 </html>

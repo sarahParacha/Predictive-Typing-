@@ -9,6 +9,17 @@ from collections import OrderedDict
 from pprint import pprint
 from nltk.util import ngrams 
 
+def stripText(t):
+    # Strip non-ascii characters
+    t = re.sub(r'[^\x00-\x7F]+',' ', t)
+    # Strip punctuation
+    t = t.translate(str.maketrans('', '', string.punctuation))
+    # Strip newlines
+    t = t.replace('\n', ' ')
+    # Convert to lowercase
+    t = t.lower()
+    return t
+
 testFilePath = "Test Data/gettysburg.txt"
 
 f = open(testFilePath, "r")
@@ -18,14 +29,7 @@ if f.mode != 'r':
     raise SystemExit
 
 testString = f.read()
-# Strip non-ascii characters
-s = re.sub(r'[^\x00-\x7F]+',' ', testString)
-# Strip punctuation
-s = s.translate(str.maketrans('', '', string.punctuation))
-# Strip newlines
-s = s.replace('\n', ' ')
-# Convert to lowercase
-s = s.lower()
+s = stripText(testString)
 
 print(s)
 tokenized = s.split()
@@ -34,36 +38,31 @@ listOfTrigrams = list(Trigrams)
 print(listOfTrigrams[:10])
 print(len(listOfTrigrams))
 
-# if input("Connect to remote mongo server? y/n: ") == "y":
-#     mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
-#     mongoUser = input("Enter mongoDB username: ")
-#     mongoPass = getpass.getpass("Enter mongoDB password: ")
-#     mongoUrl = "mongodb://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
-#     print("Inserting trigrams into MongoDB on " + mongoBaseUrl)
-# else:
-#     mongoUrl = "localhost"
-#     print("Inserting trigrams into MongoDB on " + mongoUrl)
-
 mongoUrl = "localhost"
 print("Inserting trigrams into MongoDB on " + mongoUrl)
 
 mongoClient = pymongo.MongoClient(mongoUrl)
 db = mongoClient.ngrams
 
-buckets = {'a': {}, 'b': {}, 'c': {}, 'd': {}, 'e': {}, 'f': {}, 'g': {}, 'h': {}, 'i': {}, 'j': {}, 'k': {}, 'l': {}, 'm': {},
-            'n': {}, 'o': {}, 'p': {}, 'q': {}, 'r': {}, 's': {}, 't': {}, 'u': {}, 'v': {}, 'w': {}, 'x': {}, 'y': {}, 'z': {}}
+buckets = {}
 
-# Get word count
-words = s.split()
-for word in words:
-    c = word[0]
-    if word in buckets[c]:
-        buckets[c][word] = buckets[c][word] + 1
+for trigram in listOfTrigrams:
+    bucket = trigram[0]
+    trigramString = " ".join(trigram)
+    if bucket not in buckets:
+        buckets[bucket] = {}
+    if trigram in buckets[bucket]:
+        buckets[bucket][trigramString] = buckets[bucket][trigramString] + 1
     else:
-        buckets[c][word] = 1
+        buckets[bucket][trigramString] = 1
+
+print(buckets)
 
 for bucket in buckets:
+    print(buckets[bucket])
     # Sort bucket
     buckets[bucket] = OrderedDict(sorted(buckets[bucket].items(), key=lambda x: x[1], reverse=True))
     # Insert or replace mongo document
     db.buckets.replace_one({'_id': bucket}, buckets[bucket], upsert=True)
+
+
