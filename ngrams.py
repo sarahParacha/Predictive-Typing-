@@ -51,7 +51,7 @@ for trigram in listOfTrigrams:
     trigramString = " ".join(trigram)
     if bucket not in buckets:
         buckets[bucket] = {}
-    if trigram in buckets[bucket]:
+    if trigramString in buckets[bucket]:
         buckets[bucket][trigramString] = buckets[bucket][trigramString] + 1
     else:
         buckets[bucket][trigramString] = 1
