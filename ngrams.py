@@ -21,10 +21,11 @@ def stripText(t):
     t = t.lower()
     return t
 
+# Don't show blank root window
 root = tkinter.Tk()
 root.withdraw()
+#
 testFilePath = tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
-# testFilePath = "Test Data/gettysburg.txt"
 
 f = open(testFilePath, "r")
 
