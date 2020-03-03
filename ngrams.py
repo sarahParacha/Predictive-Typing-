@@ -5,6 +5,7 @@
 #Website Resource: http://www.albertauyeung.com/post/generating-ngrams-python/
 #----------------------------------------------------------------------------
 import re, string, collections, pymongo, getpass, urllib.parse
+import tkinter
 from collections import OrderedDict
 from pprint import pprint
 from nltk.util import ngrams 
@@ -20,7 +21,10 @@ def stripText(t):
     t = t.lower()
     return t
 
-testFilePath = "Test Data/gettysburg.txt"
+root = tkinter.Tk()
+root.withdraw()
+testFilePath = tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
+# testFilePath = "Test Data/gettysburg.txt"
 
 f = open(testFilePath, "r")
 
