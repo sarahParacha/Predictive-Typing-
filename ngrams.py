@@ -2,7 +2,6 @@
 #A short program illustrating the generation of ngrams using python libraries.
 #To run the program, ensure that the nltk library is installed. To do so the
 #following command needs to be run: pip3 install nltk (for Python 3).
-#Website Resource: http://www.albertauyeung.com/post/generating-ngrams-python/
 #----------------------------------------------------------------------------
 import re, string, collections, pymongo, getpass, urllib.parse
 import tkinter
@@ -56,7 +55,7 @@ for trigram in listOfTrigrams:
     trigramString = " ".join(trigram)
     if bucket not in buckets:
         buckets[bucket] = {}
-    if trigram in buckets[bucket]:
+    if trigramString in buckets[bucket]:
         buckets[bucket][trigramString] = buckets[bucket][trigramString] + 1
     else:
         buckets[bucket][trigramString] = 1
