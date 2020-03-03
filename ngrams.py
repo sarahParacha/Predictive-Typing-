@@ -26,7 +26,7 @@ root.withdraw()
 #
 testFilePath = tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
 
-f = open(testFilePath, "r")
+f = open(testFilePath, "r", encoding="utf8")
 
 if f.mode != 'r': 
     print("Failed to open test file")
@@ -42,8 +42,15 @@ listOfTrigrams = list(Trigrams)
 print(listOfTrigrams[:10])
 print(len(listOfTrigrams))
 
-mongoUrl = "localhost"
-print("Inserting trigrams into MongoDB on " + mongoUrl)
+if input("Connect to remote mongo server? y/n: ") == "y":
+    mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
+    mongoUser = input("Enter mongoDB username: ")
+    mongoPass = getpass.getpass("Enter mongoDB password: ")
+    mongoUrl = "mongodb://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
+    print("Inserting trigrams into MongoDB on " + mongoBaseUrl)
+else:
+    mongoUrl = "localhost"
+    print("Inserting trigrams into MongoDB on " + mongoUrl)
 
 mongoClient = pymongo.MongoClient(mongoUrl)
 db = mongoClient.ngrams
@@ -60,10 +67,10 @@ for trigram in listOfTrigrams:
     else:
         buckets[bucket][trigramString] = 1
 
-print(buckets)
+# print(buckets)
 
 for bucket in buckets:
-    print(buckets[bucket])
+    # print(buckets[bucket])
     # Sort bucket
     buckets[bucket] = OrderedDict(sorted(buckets[bucket].items(), key=lambda x: x[1], reverse=True))
     # Insert or replace mongo document
