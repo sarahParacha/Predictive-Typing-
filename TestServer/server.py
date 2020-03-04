@@ -23,7 +23,7 @@ if input("Connect to remote mongo server? y/n: ") == "y":
     mongoUser = input("Enter mongoDB username: ")
     mongoPass = getpass.getpass("Enter mongoDB password: ")
     mongoUrl = "mongodb+srv://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
-    print("Connecting to  MongoDB on " + mongoBaseUrl)
+    print("Connecting to MongoDB on " + mongoBaseUrl)
 else:
     mongoUrl = "localhost"
     print("Connecting to MongoDB on " + mongoUrl)
