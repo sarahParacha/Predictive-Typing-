@@ -46,7 +46,8 @@ def textInput(json):
     text = json['data']
     bucket = buckets.find_one({'_id': {"$regex": "^"+text}})    # Search for bucket _id beginning with input
     if bucket is not None:
-        return list(bucket)[1:]    # First item is the bucket _id, so skip it
+        # First item is the bucket _id, so skip it. Only return first 20 items
+        return list(bucket)[1:21]
 
 if __name__ == '__main__':
     socketio.run(app)
