@@ -4,10 +4,10 @@
 #following command needs to be run: pip3 install nltk (for Python 3).
 #----------------------------------------------------------------------------
 import re, string, collections, pymongo, getpass, urllib.parse
-import tkinter
+import sys
 from collections import OrderedDict
 from pprint import pprint
-from nltk.util import ngrams 
+from nltk.util import ngrams
 
 def stripText(t):
     # Strip non-ascii characters
@@ -20,12 +20,29 @@ def stripText(t):
     t = t.lower()
     return t
 
-# Don't show blank root window
-root = tkinter.Tk()
-root.withdraw()
-#
-testFilePath = tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
+def cliFileChooser():
+    from treepick import pick
+    print(sys.modules)
+    return "./Alice's Adventure in Wonderland.txt"
 
+# Graphical file chooser may fail
+try:
+    import tkinter
+    # Don't show blank root window
+    root = tkinter.Tk()
+    root.withdraw()
+    testFilePath = tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
+except ImportError as err:
+    print(err)
+    print("Import error: is tk installed?")
+    print("Falling back to cli file chooser.")
+    testFilePath = cliFileChooser()
+except _tkinter.TclError as err:
+    print(err)
+    print("No display name or $DISPLAY env variable found.")
+    print("Falling back to cli file chooser.")
+    testFilePath = cliFileChooser()
+    
 f = open(testFilePath, "r", encoding="utf8")
 
 if f.mode != 'r': 
