@@ -39,8 +39,6 @@ def serve():
 @socketio.on('textInput')
 def textInput(json):
     text = json['data']
-    # print('Received text input: ' + text)
-    # print()
     bucket = buckets.find_one({'_id': {"$regex": "^"+text}})
     if bucket is not None:
         return list(bucket)[1:]
