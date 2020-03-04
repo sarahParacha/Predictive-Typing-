@@ -70,11 +70,6 @@ def getFilename():
         print()
         return input("Enter test data path: ")
 
-# Display CLI file chooser and return filename
-# This got its own function because it was going to be fancier
-def cliFileChooser():  
-    return 
-
 # Basic text parser
 ## TODO: Replace with more sophisticated parser
 def parseText(t):
