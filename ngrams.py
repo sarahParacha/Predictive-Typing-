@@ -79,7 +79,7 @@ def cliFileChooser():
 ## TODO: Replace with more sophisticated parser
 def parseText(t):
     # Strip non-ascii characters
-    t = re.sub(r'[^\x00-\x7F]+',' ', t)
+    t = t.encode('ascii', 'replace').decode()
     # Strip punctuation
     t = t.translate(str.maketrans('', '', string.punctuation))
     # Strip newlines
