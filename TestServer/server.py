@@ -18,10 +18,10 @@ def parseText(t):
     return t    
 
 # Select MongoDB server
-if input("Connect to remote mongo server? y/n: ") == "y":
+if input("Connect to remote MongoDB server? y/n: ") == "y":
     mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
-    mongoUser = input("Enter mongoDB username: ")
-    mongoPass = getpass.getpass("Enter mongoDB password: ")
+    mongoUser = input("Enter MongoDB username: ")
+    mongoPass = getpass.getpass("Enter MongoDB password: ")
     mongoUrl = "mongodb+srv://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
     print("Connecting to MongoDB on " + mongoBaseUrl)
 else:

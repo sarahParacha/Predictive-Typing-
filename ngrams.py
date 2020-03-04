@@ -105,10 +105,10 @@ def bucketize(listOfTuples):
 # Select remote or local MongoDB server and return connection
 # Blocks, and exits on failure
 def connectToMongo():
-    if input("Connect to remote mongo server? y/n: ") == "y":
+    if input("Connect to remote MongoDB server? y/n: ") == "y":
         mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
-        mongoUser = input("Enter mongoDB username: ")
-        mongoPass = getpass.getpass("Enter mongoDB password: ")
+        mongoUser = input("Enter MongoDB username: ")
+        mongoPass = getpass.getpass("Enter MongoDB password: ")
         # Generate connection string
         mongoUrl = "mongodb+srv://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
         print("Connecting to MongoDB on " + mongoBaseUrl)
