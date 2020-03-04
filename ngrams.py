@@ -59,20 +59,21 @@ def getFilename():
     except ImportError as err:
         print(err)
         print("Import error: is tk installed?")
-        print("Falling back to cli file chooser.")
-        return cliFileChooser()
+        print("Falling back to CLI.")
+        return input("Enter test data path: ")
     # Probably not in a graphical environment
     except _tkinter.TclError as err:
         print(err)
         print("No display name or $DISPLAY env variable found.")
-        print("Falling back to cli file chooser.")
-        return cliFileChooser()
+        print()
+        print("Falling back to CLI")
+        print()
+        return input("Enter test data path: ")
 
 # Display CLI file chooser and return filename
-def cliFileChooser():
-    if "module treepick.pick" not in sys.modules:
-        from treepick import pick
-    return "./Alice's Adventure in Wonderland.txt"
+# This got its own function because it was going to be fancier
+def cliFileChooser():  
+    return 
 
 # Basic text parser
 ## TODO: Replace with more sophisticated parser
