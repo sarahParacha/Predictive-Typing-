@@ -1,4 +1,4 @@
-import pymongo, getpass, urllib.parse
+import string, pymongo, getpass, urllib.parse
 from flask import Flask, render_template
 from flask_socketio import SocketIO
 app = Flask(__name__)
