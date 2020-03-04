@@ -4,6 +4,7 @@ from flask_socketio import SocketIO
 app = Flask(__name__)
 socketio = SocketIO(app)
 
+# Select MongoDB server
 if input("Connect to remote mongo server? y/n: ") == "y":
     mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
     mongoUser = input("Enter mongoDB username: ")
@@ -14,34 +15,38 @@ else:
     mongoUrl = "localhost"
     print("Connecting to MongoDB on " + mongoUrl)
 
+# Attempt to connect to MongoDB
 try:
 	timeoutDelay = 10000
-	mongoClient = pymongo.MongoClient(mongoUrl, timeoutDelay)
+	mongoClient = pymongo.MongoClient(mongoUrl, serverSelectionTimeoutMS=timeoutDelay)
 	# Send request to check connection
 	mongoClient.server_info()
 except pymongo.errors.ServerSelectionTimeoutError as err:
 	print(err)
 	print("Server selection timed out (" + timeoutDelay + " ms)")
 	exit()
-
 print("Connected to mongoDB.")
-db = mongoClient.ngrams
 
-
+# Select buckets document
 mongoClient = pymongo.MongoClient(mongoUrl)
 db = mongoClient.ngrams
 buckets = db.buckets
 
+print()
+print("Listening...")
+
+# Server search page on /
 @app.route('/')
 def serve():
     return render_template('search.html.jinja')
 
+# Handle text input from search page
 @socketio.on('textInput')
 def textInput(json):
     text = json['data']
-    bucket = buckets.find_one({'_id': {"$regex": "^"+text}})
+    bucket = buckets.find_one({'_id': {"$regex": "^"+text}})    # Search for bucket _id beginning with input
     if bucket is not None:
-        return list(bucket)[1:]
+        return list(bucket)[1:]    # First item is the bucket _id, so skip it
 
 if __name__ == '__main__':
     socketio.run(app)
