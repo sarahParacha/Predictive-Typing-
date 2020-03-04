@@ -78,9 +78,9 @@ def cliFileChooser():
 # Basic text parser
 ## TODO: Replace with more sophisticated parser
 def parseText(t):
-    # Strip non-ascii characters
+    # Replace non-ascii characters with ?
     t = t.encode('ascii', 'replace').decode()
-    # Strip punctuation
+    # Strip punctuation (also removes ? from t.encode)
     t = t.translate(str.maketrans('', '', string.punctuation))
     # Strip newlines
     t = t.replace('\n', ' ')
