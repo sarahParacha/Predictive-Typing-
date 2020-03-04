@@ -1,11 +1,18 @@
-import pymongo
+import pymongo, getpass, urllib.parse
 from flask import Flask, render_template
 from flask_socketio import SocketIO
 app = Flask(__name__)
 socketio = SocketIO(app)
 
-mongoUrl = "localhost"
-print("Connecting to MongoDB on " + mongoUrl)
+if input("Connect to remote mongo server? y/n: ") == "y":
+    mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
+    mongoUser = input("Enter mongoDB username: ")
+    mongoPass = getpass.getpass("Enter mongoDB password: ")
+    mongoUrl = "mongodb://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
+    print("Connecting to MongoDB on " + mongoBaseUrl)
+else:
+    mongoUrl = "localhost"
+    print("Connecting to MongoDB on " + mongoUrl)
 
 mongoClient = pymongo.MongoClient(mongoUrl)
 db = mongoClient.ngrams

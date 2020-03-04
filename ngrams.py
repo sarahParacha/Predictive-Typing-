@@ -20,11 +20,21 @@ def stripText(t):
     t = t.lower()
     return t
 
-# Don't show blank root window
-root = tkinter.Tk()
-root.withdraw()
-#
-testFilePath = tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
+# Try to launch graphical file selector, if this fails fallback to console
+try:
+	# Don't show blank tk root window
+	root = tkinter.Tk()
+	root.withdraw()	
+	# Launch graphical file selector
+	testFilePath = tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
+except _tkinter.TclError:
+	# No graphical display available
+	print("No display name and no $DISPLAY env variable")
+	print("Using console")
+	# https://github.com/tslight/treepick
+	from treepick import pick
+	## TODO: Should expand this to load all files selected instead of just the first
+	testFilePath = pick(parent_path, False)[0]
 
 f = open(testFilePath, "r", encoding="utf8")
 
