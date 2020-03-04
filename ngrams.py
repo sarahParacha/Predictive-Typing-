@@ -3,7 +3,7 @@
 #   To run the program, please install all dependencies in requirements.txt
 #   -> pip install -r requirements.txt
 #----------------------------------------------------------------------------
-import sys, string, collections, re
+import sys, string, collections
 import pymongo, getpass, urllib.parse
 from collections import OrderedDict
 from pprint import pprint
