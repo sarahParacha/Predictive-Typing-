@@ -1,15 +1,82 @@
 #----------------------------------------------------------------------------
-#A short program illustrating the generation of ngrams using python libraries.
-#To run the program, ensure that the nltk library is installed. To do so the
-#following command needs to be run: pip3 install nltk (for Python 3).
+#   A short program illustrating the generation of ngrams using python libraries.
+#   To run the program, please install all dependencies in requirements.txt
+#   -> pip install -r requirements.txt
 #----------------------------------------------------------------------------
-import re, string, collections, pymongo, getpass, urllib.parse
-import sys
+import sys, string, collections, re
+import pymongo, getpass, urllib.parse
 from collections import OrderedDict
 from pprint import pprint
 from nltk.util import ngrams
 
-def stripText(t):
+def main():
+    # Read data
+    testString = readFile(getFilename())
+    s = parseText(testString)
+
+    # Generate ngrams
+    tokenized = s.split()
+    Trigrams = ngrams(tokenized,3)
+    listOfTrigrams = list(Trigrams)
+
+    print(s[:2000])
+    print(listOfTrigrams[:10])
+    print(len(listOfTrigrams))
+
+    buckets = bucketize(listOfTrigrams)
+
+    # Store buckets in MongoDB
+    mongoClient = connectToMongo()
+    db = mongoClient.ngrams
+    print("Storing buckets in MongoDB, please wait...")
+    for bucket in buckets:
+        db.buckets.replace_one({'_id': bucket}, buckets[bucket], upsert=True)
+    print("Done.")
+
+#-------------------------#
+### Component Functions ###
+#-------------------------#
+
+# Take a filename and returns the content. Exits on failure
+def readFile(filename, enc="utf8"):
+    f = open(filename, "r", encoding=enc)
+    if f.mode != 'r': 
+        print("Failed to open test file")
+        raise SystemExit
+
+    return f.read()
+
+# Displays file chooser and returns chosen file name
+def getFilename():
+    # Graphical file chooser may fail
+    try:
+        import tkinter
+        # Tk requires a root window
+        root = tkinter.Tk()
+        # But we don't want to show it
+        root.withdraw()
+        return tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
+    except ImportError as err:
+        print(err)
+        print("Import error: is tk installed?")
+        print("Falling back to cli file chooser.")
+        return cliFileChooser()
+    # Probably not in a graphical environment
+    except _tkinter.TclError as err:
+        print(err)
+        print("No display name or $DISPLAY env variable found.")
+        print("Falling back to cli file chooser.")
+        return cliFileChooser()
+
+# Display CLI file chooser and return filename
+def cliFileChooser():
+    if "module treepick.pick" not in sys.modules:
+        from treepick import pick
+    return "./Alice's Adventure in Wonderland.txt"
+
+# Basic text parser
+## TODO: Replace with more sophisticated parser
+def parseText(t):
     # Strip non-ascii characters
     t = re.sub(r'[^\x00-\x7F]+',' ', t)
     # Strip punctuation
@@ -18,79 +85,51 @@ def stripText(t):
     t = t.replace('\n', ' ')
     # Convert to lowercase
     t = t.lower()
-    return t
+    return t    
 
-def cliFileChooser():
-    from treepick import pick
-    print(sys.modules)
-    return "./Alice's Adventure in Wonderland.txt"
+# Generates buckets of tuples sorted by frequency
+def bucketize(listOfTuples):
+    buckets = {}
+    for _tuple in listOfTuples:
+        bucket = _tuple[0]    # Each first word becomes a bucket
+        tupleString = " ".join(_tuple)
+        if bucket not in buckets:    # Create bucket if it doesn't exist
+            buckets[bucket] = {}
+        if tupleString in buckets[bucket]:  # If string exists increase count
+            buckets[bucket][tupleString] = buckets[bucket][tupleString] + 1
+        else:
+            buckets[bucket][tupleString] = 1
 
-# Graphical file chooser may fail
-try:
-    import tkinter
-    # Don't show blank root window
-    root = tkinter.Tk()
-    root.withdraw()
-    testFilePath = tkinter.filedialog.askopenfilename(initialdir = "./", title = "Select test data")
-except ImportError as err:
-    print(err)
-    print("Import error: is tk installed?")
-    print("Falling back to cli file chooser.")
-    testFilePath = cliFileChooser()
-except _tkinter.TclError as err:
-    print(err)
-    print("No display name or $DISPLAY env variable found.")
-    print("Falling back to cli file chooser.")
-    testFilePath = cliFileChooser()
-    
-f = open(testFilePath, "r", encoding="utf8")
+    # Sort buckets by frequency, descending
+    for bucket in buckets:
+        buckets[bucket] = OrderedDict(sorted(buckets[bucket].items(), key=lambda x: x[1], reverse=True))
 
-if f.mode != 'r': 
-    print("Failed to open test file")
-    raise SystemExit
+    return buckets
 
-testString = f.read()
-s = stripText(testString)
-
-print(s)
-tokenized = s.split()
-Trigrams = ngrams(tokenized,3)
-listOfTrigrams = list(Trigrams)
-print(listOfTrigrams[:10])
-print(len(listOfTrigrams))
-
-if input("Connect to remote mongo server? y/n: ") == "y":
-    mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
-    mongoUser = input("Enter mongoDB username: ")
-    mongoPass = getpass.getpass("Enter mongoDB password: ")
-    mongoUrl = "mongodb://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
-    print("Inserting trigrams into MongoDB on " + mongoBaseUrl)
-else:
-    mongoUrl = "localhost"
-    print("Inserting trigrams into MongoDB on " + mongoUrl)
-
-mongoClient = pymongo.MongoClient(mongoUrl)
-db = mongoClient.ngrams
-
-buckets = {}
-
-for trigram in listOfTrigrams:
-    bucket = trigram[0]
-    trigramString = " ".join(trigram)
-    if bucket not in buckets:
-        buckets[bucket] = {}
-    if trigramString in buckets[bucket]:
-        buckets[bucket][trigramString] = buckets[bucket][trigramString] + 1
+# Select remote or local MongoDB server and return connection
+# Blocks, and exits on failure
+def connectToMongo():
+    if input("Connect to remote mongo server? y/n: ") == "y":
+        mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
+        mongoUser = input("Enter mongoDB username: ")
+        mongoPass = getpass.getpass("Enter mongoDB password: ")
+        # Generate connection string
+        mongoUrl = "mongodb+srv://" + urllib.parse.quote(mongoUser) + ":" + urllib.parse.quote(mongoPass) + "@" + mongoBaseUrl
+        print("Connecting to MongoDB on " + mongoBaseUrl)
     else:
-        buckets[bucket][trigramString] = 1
+        mongoUrl = "localhost"
+        print("Connecting to MongoDB on " + mongoUrl)
+    
+    try:
+        timeoutDelay = 10000
+        mongoClient = pymongo.MongoClient(mongoUrl, serverSelectionTimeoutMS=timeoutDelay)
+        mongoClient.server_info()   # Send request to check connection
+        print("Connected to MongoDB.")
+        return mongoClient
+    except pymongo.errors.ServerSelectionTimeoutError as err:
+	    print(err)
+	    print("Server selection timed out (" + str(timeoutDelay) + " ms)")
+	    exit()
 
-# print(buckets)
-
-for bucket in buckets:
-    # print(buckets[bucket])
-    # Sort bucket
-    buckets[bucket] = OrderedDict(sorted(buckets[bucket].items(), key=lambda x: x[1], reverse=True))
-    # Insert or replace mongo document
-    db.buckets.replace_one({'_id': bucket}, buckets[bucket], upsert=True)
-
-
+# Run main
+main()
