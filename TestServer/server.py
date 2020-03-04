@@ -4,6 +4,19 @@ from flask_socketio import SocketIO
 app = Flask(__name__)
 socketio = SocketIO(app)
 
+# Basic text parser
+## TODO: Replace with more sophisticated parser
+def parseText(t):
+    # Strip non-ascii characters
+    t = t.encode('ascii', 'ignore').decode()
+    # Strip punctuation
+    t = t.translate(str.maketrans('', '', string.punctuation))
+    # Strip newlines
+    t = t.replace('\n', ' ')
+    # Convert to lowercase
+    t = t.lower()
+    return t    
+
 # Select MongoDB server
 if input("Connect to remote mongo server? y/n: ") == "y":
     mongoBaseUrl = "sorcerodb-9qoxc.mongodb.net/test"
@@ -43,7 +56,7 @@ def serve():
 # Handle text input from search page
 @socketio.on('textInput')
 def textInput(json):
-    text = json['data']
+    text = parseText(json['data'])
     bucket = buckets.find_one({'_id': {"$regex": "^"+text}})    # Search for bucket _id beginning with input
     if bucket is not None:
         # First item is the bucket _id, so skip it. Only return first 20 items
