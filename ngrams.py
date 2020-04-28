@@ -3,7 +3,7 @@
 #   To run the program, please install all dependencies in requirements.txt
 #   -> pip install -r requirements.txt
 #----------------------------------------------------------------------------
-import sys, string, collections
+import sys, string, collections, re
 import pymongo, getpass, urllib.parse
 from collections import OrderedDict
 from pprint import pprint
@@ -16,7 +16,7 @@ def main():
 
     # Generate ngrams
     tokenized = s.split()
-    Trigrams = ngrams(tokenized,3)
+    Trigrams = ngrams(tokenized,6)
     listOfTrigrams = list(Trigrams)
 
     print(s[:2000])
@@ -75,12 +75,16 @@ def getFilename():
 def parseText(t):
     # Strip non-ascii characters
     t = t.encode('ascii', 'ignore').decode()
-    # Strip punctuation
-    t = t.translate(str.maketrans('', '', string.punctuation))
+    # Strip known tags
+    t = re.sub(r'\\ntag:.*\n', '', t)
+    # Strip literal '\n'
+    t = t.replace('\\n', ' ')
     # Strip newlines
     t = t.replace('\n', ' ')
     # Convert to lowercase
     t = t.lower()
+    # Strip punctuation
+    t = t.translate(str.maketrans('', '', string.punctuation))
     return t    
 
 # Generates buckets of tuples sorted by frequency
